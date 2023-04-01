@@ -1,0 +1,45 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "org.example.AppTest",
+    "children" : [ {
+      "name" : "testFalse",
+      "uid" : "ede0b937c0e94d3a",
+      "parentUid" : "e6c9f2e1afc2c8bc1f989dd6ca005204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680370825232,
+        "stop" : 1680370825254,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTrue",
+      "uid" : "fa34f8a3a045abda",
+      "parentUid" : "e6c9f2e1afc2c8bc1f989dd6ca005204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680370825461,
+        "stop" : 1680370825462,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testRestGet",
+      "uid" : "21f0f4c8b95178cc",
+      "parentUid" : "e6c9f2e1afc2c8bc1f989dd6ca005204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680370825469,
+        "stop" : 1680370828862,
+        "duration" : 3393
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e6c9f2e1afc2c8bc1f989dd6ca005204"
+  } ]
+}
