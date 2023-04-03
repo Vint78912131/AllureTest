@@ -1,4 +1,0 @@
-"Status","Name","Duration in ms","Description"
-"passed","org.example.AppTest.testTrue","1","Assert True Test"
-"passed","org.example.AppTest.testFalse","22","Assert False Test"
-"passed","org.example.AppTest.testRestGet","3393","Assert RestApi Get Test"

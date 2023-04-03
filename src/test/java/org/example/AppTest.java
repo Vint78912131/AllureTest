@@ -5,15 +5,17 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.runners.Suite;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+//@Suite.SuiteClasses(AppTest.class)
 public class AppTest {
 
     @Test
     @DisplayName("Assert True Test")
-//    @Step
+    @Step
     @Epic("Testing")
     @Story("Logical testing")
     @Feature("Positive")
@@ -26,7 +28,7 @@ public class AppTest {
 
     @Test
     @DisplayName("Assert False Test")
-//    @Step
+    @Step
     @Epic("Testing")
     @Story("Logical testing")
     @Feature("Positive")
@@ -39,7 +41,7 @@ public class AppTest {
 
     @Test
     @DisplayName("Assert RestApi Get Test")
-//    @Step
+    @Step
     @Epic("Testing")
     @Story("RestApi testing")
     @Feature("Positive")
@@ -66,7 +68,6 @@ public class AppTest {
             System.out.println(response.prettyPrint());
         }
     }
-
 
 
 }
