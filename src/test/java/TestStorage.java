@@ -1,8 +1,5 @@
-package org.example;
-
 import io.restassured.RestAssured;
 import org.json.JSONObject;
-import org.junit.Test;
 
 public class TestStorage {
 

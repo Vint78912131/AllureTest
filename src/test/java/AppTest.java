@@ -1,8 +1,7 @@
-package org.example;
-
 import io.qameta.allure.*;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.json.JSONObject;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.runners.Suite;
@@ -70,4 +69,30 @@ public class AppTest {
     }
 
 
+    @Test
+    @Step
+    @Epic(value = "Authorization1 Endpoints")
+    @Story("Authorization1")
+    @Feature("LogIn Positive")
+    @Description("LogIn Storage Positive")
+    @Severity(SeverityLevel.BLOCKER)
+    @DisplayName("LogIn Storage Positive")
+    public void logInP() {
+        RestAssured.baseURI = TestStorage.endpoint;
+        JSONObject requestBody = new JSONObject()
+                .put("password", "1234")
+                .put("username", "root");
+        Response response = RestAssured
+                .given()
+                .contentType("application/json")
+                .body(requestBody.toString())
+                .when()
+                .post("/api/v2/login/");
+
+        response.then()
+                .assertThat()
+                .statusCode(200)
+                .contentType("application/json")
+                .statusLine("HTTP/1.1 200 OK");
+    }
 }
