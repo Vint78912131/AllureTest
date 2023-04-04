@@ -1,0 +1,104 @@
+{
+  "uid" : "13a60a3a27b4ee04",
+  "name" : "Get Storage user info by id",
+  "fullName" : "User.getStorageUserInfo",
+  "historyId" : "d5fe4b7a9e1634c7b91c50e0edc52a65",
+  "time" : {
+    "start" : 1680602650913,
+    "stop" : 1680602651216,
+    "duration" : 303
+  },
+  "description" : "Get Storage user info by id",
+  "descriptionHtml" : "<p>Get Storage user info by id</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get Storage user info by id",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить информацию о пользователе Р-Хранилища по id.",
+      "time" : {
+        "start" : 1680602651087,
+        "stop" : 1680602651216,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e71e04a78c316107",
+        "name" : "Response",
+        "source" : "e71e04a78c316107.txt",
+        "type" : "application/json",
+        "size" : 240
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Get Storage user info by id"
+  }, {
+    "name" : "story",
+    "value" : "User User"
+  }, {
+    "name" : "epic",
+    "value" : "User"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "29132@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "getStorageUserInfo"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#2e4c4d1f-b9d2-41b2-ba4f-1d4d47681e93",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13a60a3a27b4ee04.json",
+  "parameterValues" : [ ]
+}

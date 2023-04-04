@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "active_cses": {
+                "0": 3
+            },
+            "_active_nodes": {
+                "0": 3
+            },
+            "tiers": [
+                {
+                    "phys_space": {
+                        "total": 202463907840,
+                        "free": 198708879360,
+                        "used": 3755028480
+                    },
+                    "id": 0
+                }
+            ],
+            "status": "healthy",
+            "logic_space": {
+                "total": 1099511627776,
+                "free": 1099474406558,
+                "used": 37221218
+            },
+            "id": 3,
+            "name": "newCluster",
+            "license": {
+                "capacity": 1099511627776,
+                "status": 0,
+                "expiration_ts": null,
+                "keynumber": null
+            }
+        }
+    ]
+}

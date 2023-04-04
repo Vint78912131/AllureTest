@@ -1,0 +1,104 @@
+{
+  "uid" : "17473aef9a2cb060",
+  "name" : "Get Software update status",
+  "fullName" : "SoftwareUpdate.getSoftUpdateStatus",
+  "historyId" : "51e4e6ac0911b52432ebd1dba26c144a",
+  "time" : {
+    "start" : 1680601422984,
+    "stop" : 1680601424833,
+    "duration" : 1849
+  },
+  "description" : "Get Software update status",
+  "descriptionHtml" : "<p>Get Software update status</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get Software update status",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить статус обновления ПО.",
+      "time" : {
+        "start" : 1680601424528,
+        "stop" : 1680601424828,
+        "duration" : 300
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62e82552eb2b3674",
+        "name" : "Response",
+        "source" : "62e82552eb2b3674.txt",
+        "type" : "application/json",
+        "size" : 201
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Software update"
+  }, {
+    "name" : "story",
+    "value" : "Software update"
+  }, {
+    "name" : "feature",
+    "value" : "Get Software update status"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "4300@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "SoftwareUpdate"
+  }, {
+    "name" : "testClass",
+    "value" : "SoftwareUpdate"
+  }, {
+    "name" : "testMethod",
+    "value" : "getSoftUpdateStatus"
+  }, {
+    "name" : "suite",
+    "value" : "SoftwareUpdate"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#68b2fcd0-0635-4aae-9684-5f9133fc9109",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17473aef9a2cb060.json",
+  "parameterValues" : [ ]
+}

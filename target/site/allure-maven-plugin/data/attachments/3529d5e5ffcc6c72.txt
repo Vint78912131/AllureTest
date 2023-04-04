@@ -1,0 +1,150 @@
+[
+    {
+        "error": "('2023-04-04 07:13:52.502 Timeout expired\\n', IPv4Address('192.168.12.46'), 500, ['Traceback (most recent call last):\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/commands_executor.py\", line 26, in _execute\\n    return self._command_executor([self.COMMAND] + command, input=input_, logger=log)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/shell.py\", line 149, in execute_shell_command\\n    return __execute_shell_command(cmd_arg, input, ignore_return_code, timeout, logger)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/shell.py\", line 132, in __execute_shell_command\\n    stderr=err if err else None,\\n', 'agent.contrib.shell.UnsuccessfulStatusCode: 2023-04-04 07:13:52.502 Timeout expired\\n\\n', '\\nDuring handling of the above exception, another exception occurred:\\n\\n', 'Traceback (most recent call last):\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/s3/decorators.py\", line 26, in wrapper\\n    return f(*args, **kwargs)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask-0.10.1-py3.4.egg/flask/views.py\", line 84, in view\\n    return self.dispatch_request(*args, **kwargs)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask_RESTful-0.3.4-py3.4.egg/flask_restful/__init__.py\", line 581, in dispatch_request\\n    resp = meth(*args, **kwargs)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/s3/cluster.py\", line 83, in post\\n    **data\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/s3/services.py\", line 52, in create_s3_cluster_service\\n    ).create(**create_params)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/s3/cluster/dao.py\", line 37, in create\\n    self._get_ostor_hosts_service()\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/services.py\", line 98, in get_ostor_hosts_service\\n    ).all()\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/entities/dao.py\", line 277, in all\\n    config = self._get_cluster_config()\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/entities/dao.py\", line 38, in _get_cluster_config\\n    raw_config = self._ostor_commands.get_config(json_output=True)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/commands/ostor_ctl.py\", line 247, in get_config\\n    return self._execute(command)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/commands/ostor_ctl.py\", line 63, in _execute\\n    return super()._execute(command, input_=input_)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/commands_executor.py\", line 28, in _execute\\n    raise ExecuteCommandException(exc.stdout, exc.stderr, exc.status_code)\\n', 'agent.contrib.commands_executor.ExecuteCommandException: 2023-04-04 07:13:52.502 Timeout expired\\n\\n'])",
+        "state": "failed",
+        "traceback": [
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/contrib/agent/__init__.py\", line 46, in _wrapped_call\n    rv = func(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/rest_client.py\", line 237, in post\n    data=data and json.dumps(data) or {}\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/rest_client.py\", line 213, in _request\n    traceback=traceback,\n",
+            "backend.business.rest_client.UnexpectedStatus: 2023-04-04 07:13:52.502 Timeout expired\n\n",
+            "\nDuring handling of the above exception, another exception occurred:\n\n",
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/proxy.py\", line 250, in _perform_request\n    rv = accept()\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/proxy.py\", line 319, in <lambda>\n    lambda: S3ClusterCreate(self._ip_address, logger).post(storage_cluster_name, payload=kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/contrib/agent/s3.py\", line 128, in post\n    return self._wrapped_call(client.post, payload)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/contrib/agent/__init__.py\", line 51, in _wrapped_call\n    raise ServerSideError(str(err), self.host, err.status_code, err.traceback)\n",
+            "backend.business.contrib.agent.ServerSideError: ('2023-04-04 07:13:52.502 Timeout expired\\n', IPv4Address('192.168.12.46'), 500, ['Traceback (most recent call last):\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/commands_executor.py\", line 26, in _execute\\n    return self._command_executor([self.COMMAND] + command, input=input_, logger=log)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/shell.py\", line 149, in execute_shell_command\\n    return __execute_shell_command(cmd_arg, input, ignore_return_code, timeout, logger)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/shell.py\", line 132, in __execute_shell_command\\n    stderr=err if err else None,\\n', 'agent.contrib.shell.UnsuccessfulStatusCode: 2023-04-04 07:13:52.502 Timeout expired\\n\\n', '\\nDuring handling of the above exception, another exception occurred:\\n\\n', 'Traceback (most recent call last):\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/s3/decorators.py\", line 26, in wrapper\\n    return f(*args, **kwargs)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask-0.10.1-py3.4.egg/flask/views.py\", line 84, in view\\n    return self.dispatch_request(*args, **kwargs)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask_RESTful-0.3.4-py3.4.egg/flask_restful/__init__.py\", line 581, in dispatch_request\\n    resp = meth(*args, **kwargs)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/s3/cluster.py\", line 83, in post\\n    **data\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/s3/services.py\", line 52, in create_s3_cluster_service\\n    ).create(**create_params)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/s3/cluster/dao.py\", line 37, in create\\n    self._get_ostor_hosts_service()\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/services.py\", line 98, in get_ostor_hosts_service\\n    ).all()\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/entities/dao.py\", line 277, in all\\n    config = self._get_cluster_config()\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/entities/dao.py\", line 38, in _get_cluster_config\\n    raw_config = self._ostor_commands.get_config(json_output=True)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/commands/ostor_ctl.py\", line 247, in get_config\\n    return self._execute(command)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/commands/ostor_ctl.py\", line 63, in _execute\\n    return super()._execute(command, input_=input_)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/commands_executor.py\", line 28, in _execute\\n    raise ExecuteCommandException(exc.stdout, exc.stderr, exc.status_code)\\n', 'agent.contrib.commands_executor.ExecuteCommandException: 2023-04-04 07:13:52.502 Timeout expired\\n\\n'])\n",
+            "\nDuring handling of the above exception, another exception occurred:\n\n",
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/celery-4.1.0-py3.4.egg/celery/app/trace.py\", line 374, in trace_task\n    R = retval = fun(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 27, in wrapper\n    return fn(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 73, in __call__\n    return super().__call__(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 27, in wrapper\n    return fn(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 37, in __call__\n    return TaskBase.__call__(self, *args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/celery-4.1.0-py3.4.egg/celery/app/trace.py\", line 629, in __protected_call__\n    return self.run(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/s3/tasks.py\", line 88, in run\n    ob = create_s3_cluster_service().create(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/create_cluster.py\", line 29, in create\n    n_ns, n_os, tier, failure_domain,\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/create_cluster.py\", line 262, in _create_cluster_with_nodes\n    failure_domain=failure_domain,\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/create_cluster.py\", line 338, in _create_cluster_on_node\n    logger=log,\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/domain/objects.py\", line 138, in create\n    num_ns=n_ns,\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/proxy.py\", line 319, in create_cluster\n    lambda: S3ClusterCreate(self._ip_address, logger).post(storage_cluster_name, payload=kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/proxy.py\", line 258, in _perform_request\n    raise ProxyException(err)\n",
+            "backend.business.models.s3.proxy.ProxyException: ('2023-04-04 07:13:52.502 Timeout expired\\n', IPv4Address('192.168.12.46'), 500, ['Traceback (most recent call last):\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/commands_executor.py\", line 26, in _execute\\n    return self._command_executor([self.COMMAND] + command, input=input_, logger=log)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/shell.py\", line 149, in execute_shell_command\\n    return __execute_shell_command(cmd_arg, input, ignore_return_code, timeout, logger)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/shell.py\", line 132, in __execute_shell_command\\n    stderr=err if err else None,\\n', 'agent.contrib.shell.UnsuccessfulStatusCode: 2023-04-04 07:13:52.502 Timeout expired\\n\\n', '\\nDuring handling of the above exception, another exception occurred:\\n\\n', 'Traceback (most recent call last):\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/s3/decorators.py\", line 26, in wrapper\\n    return f(*args, **kwargs)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask-0.10.1-py3.4.egg/flask/views.py\", line 84, in view\\n    return self.dispatch_request(*args, **kwargs)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask_RESTful-0.3.4-py3.4.egg/flask_restful/__init__.py\", line 581, in dispatch_request\\n    resp = meth(*args, **kwargs)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/s3/cluster.py\", line 83, in post\\n    **data\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/s3/services.py\", line 52, in create_s3_cluster_service\\n    ).create(**create_params)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/s3/cluster/dao.py\", line 37, in create\\n    self._get_ostor_hosts_service()\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/services.py\", line 98, in get_ostor_hosts_service\\n    ).all()\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/entities/dao.py\", line 277, in all\\n    config = self._get_cluster_config()\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/entities/dao.py\", line 38, in _get_cluster_config\\n    raw_config = self._ostor_commands.get_config(json_output=True)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/commands/ostor_ctl.py\", line 247, in get_config\\n    return self._execute(command)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/ostor/commands/ostor_ctl.py\", line 63, in _execute\\n    return super()._execute(command, input_=input_)\\n', '  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/commands_executor.py\", line 28, in _execute\\n    raise ExecuteCommandException(exc.stdout, exc.stderr, exc.status_code)\\n', 'agent.contrib.commands_executor.ExecuteCommandException: 2023-04-04 07:13:52.502 Timeout expired\\n\\n'])\n"
+        ],
+        "args": [
+            
+        ],
+        "kwargs": {
+            "storage_cluster_id": 3,
+            "failure_domain": "host",
+            "s3gw_domain": "s3.RP.ru",
+            "tier": 0,
+            "redundancy": {
+                "type": "raid1",
+                "m": 2
+            },
+            "nodes": [
+                {
+                    "id": "059ac5a5-0724-4d66-a09b-a9163ba00859",
+                    "priv_net_if": "br1"
+                },
+                {
+                    "id": "849e6c83-1b10-489f-855a-dc2fa80271e2",
+                    "priv_net_if": "br1"
+                },
+                {
+                    "id": "2f56b362-e93b-45d4-af91-637daf472fed",
+                    "priv_net_if": "br1"
+                }
+            ],
+            "protocol": {
+                "cert": null,
+                "use_http": false,
+                "gen_cert": true,
+                "use_https": true,
+                "key": null
+            }
+        },
+        "task_id": "eb3fc1d3-ecd9-4d0d-ac17-d284d7d9e695",
+        "name": "backend.presentation.s3.tasks.OstorCreateClusterTask"
+    },
+    {
+        "error": "Кластер объектного хранилища не найден.",
+        "state": "failed",
+        "traceback": [
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/celery-4.1.0-py3.4.egg/celery/app/trace.py\", line 374, in trace_task\n    R = retval = fun(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 27, in wrapper\n    return fn(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 73, in __call__\n    return super().__call__(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 27, in wrapper\n    return fn(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 37, in __call__\n    return TaskBase.__call__(self, *args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/celery-4.1.0-py3.4.egg/celery/app/trace.py\", line 629, in __protected_call__\n    return self.run(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/s3/tasks.py\", line 124, in run\n    create_release_nodes_service().release(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/release_node.py\", line 18, in release\n    rv = self._relaxed_release(storage_cluster_id, nodes)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/release_node.py\", line 24, in _relaxed_release\n    s3_cluster, s3_nodes = self.validate_release_params(storage_cluster_id, nodes=nodes)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/release_node.py\", line 97, in validate_release_params\n    s3_cluster = self.get_s3_cluster_by_storage_id(storage_cluster_id)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/services.py\", line 42, in get_s3_cluster_by_storage_id\n    raise ObjectDoesNotExist(_('Object storage Cluster not found.'))\n",
+            "backend.business.models.exceptions.ObjectDoesNotExist: Кластер объектного хранилища не найден.\n"
+        ],
+        "args": [
+            
+        ],
+        "kwargs": {
+            "storage_cluster_id": 3,
+            "nodes": [
+                "2f56b362-e93b-45d4-af91-637daf472fed"
+            ]
+        },
+        "task_id": "69a07840-ae3f-470e-b5a0-aaa4c0496d03",
+        "name": "backend.presentation.s3.tasks.OstorReleaseNodeTaks"
+    },
+    {
+        "error": "Кластер объектного хранилища не найден.",
+        "state": "failed",
+        "traceback": [
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/celery-4.1.0-py3.4.egg/celery/app/trace.py\", line 374, in trace_task\n    R = retval = fun(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 27, in wrapper\n    return fn(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 73, in __call__\n    return super().__call__(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 27, in wrapper\n    return fn(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/base_tasks.py\", line 37, in __call__\n    return TaskBase.__call__(self, *args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/celery-4.1.0-py3.4.egg/celery/app/trace.py\", line 629, in __protected_call__\n    return self.run(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/s3/tasks.py\", line 124, in run\n    create_release_nodes_service().release(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/release_node.py\", line 18, in release\n    rv = self._relaxed_release(storage_cluster_id, nodes)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/release_node.py\", line 24, in _relaxed_release\n    s3_cluster, s3_nodes = self.validate_release_params(storage_cluster_id, nodes=nodes)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/release_node.py\", line 97, in validate_release_params\n    s3_cluster = self.get_s3_cluster_by_storage_id(storage_cluster_id)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/services.py\", line 42, in get_s3_cluster_by_storage_id\n    raise ObjectDoesNotExist(_('Object storage Cluster not found.'))\n",
+            "backend.business.models.exceptions.ObjectDoesNotExist: Кластер объектного хранилища не найден.\n"
+        ],
+        "args": [
+            
+        ],
+        "kwargs": {
+            "storage_cluster_id": 3,
+            "nodes": [
+                "2f56b362-e93b-45d4-af91-637daf472fed"
+            ]
+        },
+        "task_id": "cad621d0-c0d6-4ae3-9c97-5e4420619e58",
+        "name": "backend.presentation.s3.tasks.OstorReleaseNodeTaks"
+    },
+    {
+        "name": "backend.tasks.remote.NodePerformanceTestTask",
+        "state": "scheduled",
+        "task_id": "ebda03de-10a0-4aa7-9308-b798cc311aa8",
+        "args": [
+            "192.168.12.45",
+            {
+                "disks": [
+                    {
+                        "name": "disk_name"
+                    }
+                ]
+            }
+        ],
+        "kwargs": {
+            
+        }
+    }
+]

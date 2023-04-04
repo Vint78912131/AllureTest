@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "luns": [
+                {
+                    "is_online": false,
+                    "cluster_id": 3,
+                    "target_iqn": "iqn.2014-06.com.vstorage:123",
+                    "used": 1048576,
+                    "size": 1073741824,
+                    "description": "new Lun",
+                    "lunno": 1
+                },
+                {
+                    "is_online": false,
+                    "cluster_id": 3,
+                    "target_iqn": "iqn.2014-06.com.vstorage:123",
+                    "used": 1048576,
+                    "size": 1073741824,
+                    "description": "new Lun",
+                    "lunno": 2
+                }
+            ],
+            "state": "stopped",
+            "cluster_id": 3,
+            "limits": [
+                {
+                    "type": "max_kbps",
+                    "value": 0
+                },
+                {
+                    "type": "max_iops",
+                    "value": 0
+                }
+            ],
+            "owner": "root",
+            "node": {
+                "id": "849e6c83-1b10-489f-855a-dc2fa80271e2",
+                "host": "192.168.12.46"
+            },
+            "portals": [
+                "192.168.12.49"
+            ],
+            "mut_owner": null,
+            "iqn": "iqn.2014-06.com.vstorage:123",
+            "initiators": [
+                
+            ]
+        }
+    ]
+}

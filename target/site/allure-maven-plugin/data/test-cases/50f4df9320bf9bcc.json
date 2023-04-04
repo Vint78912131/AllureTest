@@ -1,0 +1,104 @@
+{
+  "uid" : "50f4df9320bf9bcc",
+  "name" : "Check cluster license",
+  "fullName" : "License.checkClusterLicense",
+  "historyId" : "5ac3861aa33530b42312b63b25534e94",
+  "time" : {
+    "start" : 1680605319439,
+    "stop" : 1680605319702,
+    "duration" : 263
+  },
+  "description" : "Check cluster license info by params",
+  "descriptionHtml" : "<p>Check cluster license info by params</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Check cluster license info by params",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверить лицензию кластера.",
+      "time" : {
+        "start" : 1680605319581,
+        "stop" : 1680605319702,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7251402955991864",
+        "name" : "Response",
+        "source" : "7251402955991864.txt",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "License"
+  }, {
+    "name" : "feature",
+    "value" : "Check cluster license info"
+  }, {
+    "name" : "epic",
+    "value" : "Cluster License"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "27452@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "License"
+  }, {
+    "name" : "testClass",
+    "value" : "License"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkClusterLicense"
+  }, {
+    "name" : "suite",
+    "value" : "License"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#2fcbd99f-2a1d-4822-b315-7c5133c8157d",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50f4df9320bf9bcc.json",
+  "parameterValues" : [ ]
+}

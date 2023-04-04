@@ -1,0 +1,20 @@
+{
+    "error": {
+        "http_code": 500,
+        "message": "isinstance() arg 2 must be a type or tuple of types",
+        "traceback": [
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/decorators.py\", line 28, in wrapper\n    return func(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/performance_tests/endpoints.py\", line 13, in post\n    return PerformanceTestsPresentationModel().run_test(node_ip, disks), 202\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/performance_tests.py\", line 19, in run_test\n    NodePerformanceTestTask(), args=(node_ip, disks), kwargs={},\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/manager.py\", line 30, in run_task\n    task_id = self.make_task_record(task=task, args=args, kwargs=kwargs, event=event, context=context)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/manager.py\", line 40, in make_task_record\n    self._check_compatibility(task, args, kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/celery/manager.py\", line 170, in _check_compatibility\n    if t[\"state\"] in RUNNING_STATES and not task.is_compatible_with(t, args, kwargs):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/tasks/remote.py\", line 10, in is_compatible_with\n    if isinstance(task, NodePerformanceTestTask):\n",
+            "TypeError: isinstance() arg 2 must be a type or tuple of types\n"
+        ],
+        "subsytem": "presentation",
+        "errors": null
+    },
+    "message": "isinstance() arg 2 must be a type or tuple of types (Deprecated field)"
+}

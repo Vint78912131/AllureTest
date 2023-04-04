@@ -1,0 +1,5 @@
+{
+    "password": "HN9Bpi",
+    "id": 3,
+    "name": "newCluster"
+}

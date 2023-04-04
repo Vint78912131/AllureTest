@@ -1,0 +1,9 @@
+{
+    "status": "unknown",
+    "total_size": 1099511627776,
+    "free_size": 1099474406558,
+    "capacity": 1099511627776,
+    "used_size": 37221218,
+    "expiration_ts": null,
+    "keynumber": null
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "965f4e78058b0b91",
+  "name" : "Register new Cluster",
+  "fullName" : "Clasters.setNewCluster",
+  "historyId" : "f7b89c38aeec283ae5ed4d505203a53e",
+  "time" : {
+    "start" : 1680603512289,
+    "stop" : 1680603512289,
+    "duration" : 0
+  },
+  "description" : "Register new Cluster",
+  "descriptionHtml" : "<p>Register new Cluster</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void Clasters.setNewCluster() is @Disabled",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Cluster Clusters"
+  }, {
+    "name" : "feature",
+    "value" : "Register new Cluster"
+  }, {
+    "name" : "story",
+    "value" : "Clusters"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "16680@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Clasters"
+  }, {
+    "name" : "testClass",
+    "value" : "Clasters"
+  }, {
+    "name" : "testMethod",
+    "value" : "setNewCluster"
+  }, {
+    "name" : "suite",
+    "value" : "Clasters"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#fd5eb729-40e2-494d-885c-d5de31c697dc",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "965f4e78058b0b91.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,114 @@
+{
+  "total" : 17,
+  "items" : [ {
+    "uid" : "0e274f8aac3292d6097a1804cede62d0",
+    "name" : "S3",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 17
+    }
+  }, {
+    "uid" : "f16da1396ece04d8419ff9c00ba77aed",
+    "name" : "ISCSI",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "05a2dc8ff1a26086319f716f7098eb75",
+    "name" : "Nodes",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "7ecec0e296f266fb592b226e53d923a6",
+    "name" : "Statistics",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "b430ffcb8753edf77509726c6202b4ed",
+    "name" : "License",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "158d31ef2d958db1dcda80c268f86ba1",
+    "name" : "User",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "0b598698eaa6688021f6a50928114836",
+    "name" : "Clasters",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "dc39178526518815050f82501e671a27",
+    "name" : "ChunkServers",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "ec46cc24227b087bd684c0af23edd217",
+    "name" : "MDS",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "c5977898fb3840a5b8c7d0bba34c6509",
+    "name" : "SoftwareUpdate",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

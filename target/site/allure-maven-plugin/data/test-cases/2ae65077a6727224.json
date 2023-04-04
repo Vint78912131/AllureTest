@@ -1,0 +1,102 @@
+{
+  "uid" : "2ae65077a6727224",
+  "name" : "Start task which test disk performance",
+  "fullName" : "Performance.startPerformanceTask",
+  "historyId" : "4510b272dea6e56a6c7ae9ddd0e999ba",
+  "time" : {
+    "start" : 1680596633682,
+    "stop" : 1680596635430,
+    "duration" : 1748
+  },
+  "description" : "Start task which test disk performance",
+  "descriptionHtml" : "<p>Start task which test disk performance</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Start task which test disk performance",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запуск задания по тестированию производительности дисков.",
+      "time" : {
+        "start" : 1680596635222,
+        "stop" : 1680596635418,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e77f196d289123bf",
+        "name" : "Response",
+        "source" : "e77f196d289123bf.txt",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Start task which test disk performance"
+  }, {
+    "name" : "story",
+    "value" : "Performance"
+  }, {
+    "name" : "epic",
+    "value" : "Performance"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "22284@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Performance"
+  }, {
+    "name" : "testClass",
+    "value" : "Performance"
+  }, {
+    "name" : "testMethod",
+    "value" : "startPerformanceTask"
+  }, {
+    "name" : "suite",
+    "value" : "Performance"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#9fe62eb6-8800-4576-bd24-6c39013612aa",
+    "type" : "custom"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ae65077a6727224.json",
+  "parameterValues" : [ ]
+}

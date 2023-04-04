@@ -1,0 +1,21 @@
+{
+    "nodes": [
+        {
+            "is_releasing": false,
+            "id": "849e6c831b10489f855adc2fa80271e2",
+            "host": "192.168.12.46"
+        },
+        {
+            "is_releasing": false,
+            "id": "2f56b362e93b45d4af91637daf472fed",
+            "host": "192.168.12.47"
+        },
+        {
+            "is_releasing": false,
+            "id": "059ac5a507244d66a09ba9163ba00859",
+            "host": "192.168.12.45"
+        }
+    ],
+    "id": 3,
+    "name": "newCluster"
+}

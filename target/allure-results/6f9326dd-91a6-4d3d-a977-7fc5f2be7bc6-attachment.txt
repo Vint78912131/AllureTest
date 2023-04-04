@@ -1,0 +1,18 @@
+{
+    "error": {
+        "http_code": 404,
+        "message": "Cannot find S3 cluster for storage cluster",
+        "traceback": [
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/decorators.py\", line 28, in wrapper\n    return func(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/s3/buckets.py\", line 54, in put\n    bucket = create_s3_buckets_service(logger).modify_bucket(cluster_id, name, **payload)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/buckets/services.py\", line 36, in modify_bucket\n    bucket = self._buckets_dao.change(bucket)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/buckets/dao.py\", line 33, in change\n    response = self._request(bucket.storage_cluster_id, query, bucket.name, notnone_dict(is_np=bucket.is_np))\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/buckets/dao.py\", line 24, in _request\n    raise ObjectDoesNotExist('Cannot find S3 cluster for storage cluster')\n",
+            "backend.business.models.exceptions.ObjectDoesNotExist: Cannot find S3 cluster for storage cluster\n"
+        ],
+        "subsytem": "presentation",
+        "errors": null
+    },
+    "message": "Cannot find S3 cluster for storage cluster (Deprecated field)"
+}

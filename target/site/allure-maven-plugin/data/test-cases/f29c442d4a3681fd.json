@@ -1,0 +1,98 @@
+{
+  "uid" : "f29c442d4a3681fd",
+  "name" : "Provides info about single mds",
+  "fullName" : "MDS.getMDSInfo",
+  "historyId" : "689c0744861000867866054d81ca51f2",
+  "time" : {
+    "start" : 1680605576627,
+    "stop" : 1680605578429,
+    "duration" : 1802
+  },
+  "description" : "Provides info about single mds",
+  "descriptionHtml" : "<p>Provides info about single mds</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Provides info about single mds",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить информацию о сервере метаданных по id.",
+      "time" : {
+        "start" : 1680605578141,
+        "stop" : 1680605578426,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "MDS"
+  }, {
+    "name" : "story",
+    "value" : "MDS MDS"
+  }, {
+    "name" : "feature",
+    "value" : "Provides info about single mds"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "31904@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MDS"
+  }, {
+    "name" : "testClass",
+    "value" : "MDS"
+  }, {
+    "name" : "testMethod",
+    "value" : "getMDSInfo"
+  }, {
+    "name" : "suite",
+    "value" : "MDS"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#b711d9b7-c0e6-49bf-aafc-1071d2e8f719",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f29c442d4a3681fd.json",
+  "parameterValues" : [ ]
+}

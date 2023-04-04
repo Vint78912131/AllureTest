@@ -1,0 +1,73 @@
+{
+  "uid" : "87f99db5e39c8ea7",
+  "name" : "Delete chunks server",
+  "fullName" : "ChunkServers.deleteChunksServer",
+  "historyId" : "d13554ec3f4463e826d4558b07c7ae7d",
+  "time" : {
+    "start" : 1680603259884,
+    "stop" : 1680603259884,
+    "duration" : 0
+  },
+  "description" : "Delete chunks server",
+  "descriptionHtml" : "<p>Delete chunks server</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void ChunkServers.deleteChunksServer() is @Disabled",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Delete chunks server"
+  }, {
+    "name" : "story",
+    "value" : "Chunk Servers"
+  }, {
+    "name" : "epic",
+    "value" : "Cluster"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "30704@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ChunkServers"
+  }, {
+    "name" : "testClass",
+    "value" : "ChunkServers"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteChunksServer"
+  }, {
+    "name" : "suite",
+    "value" : "ChunkServers"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#a37faa9d-6853-4a18-957a-aece186909d1",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87f99db5e39c8ea7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1609 @@
+{
+    "iscsi_lun_details": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/<string:target_iqn>/luns/<int:lunno>/details/",
+        "name": "iscsi_lun_details"
+    },
+    "ostor_cluster": {
+        "methods": [
+            "GET",
+            "POST",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/",
+        "name": "ostor_cluster"
+    },
+    "s3_geo_sites": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/geo/sites/",
+        "name": "s3_geo_sites"
+    },
+    "ha_nodes_join": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/ha/nodes/join/",
+        "name": "ha_nodes_join"
+    },
+    "network_iface": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/net/ifs/<string:name>/",
+        "name": "network_iface"
+    },
+    "abgw_truncate_stat": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/stat/truncate/",
+        "name": "abgw_truncate_stat"
+    },
+    "send_test_email": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/notifications/test-email/",
+        "name": "send_test_email"
+    },
+    "s3_buckets": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/buckets/",
+        "name": "s3_buckets"
+    },
+    "s3_geo_self_site_token": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/geo/self-site-token/",
+        "name": "s3_geo_self_site_token"
+    },
+    "s3_users": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/users/",
+        "name": "s3_users"
+    },
+    "iscsi_targets": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/",
+        "name": "iscsi_targets"
+    },
+    "license_as": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/license/as/",
+        "name": "license_as"
+    },
+    "backup": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/backup/",
+        "name": "backup"
+    },
+    "iscsi_target_start": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/<string:iqn>/start/",
+        "name": "iscsi_target_start"
+    },
+    "cluster_password": {
+        "methods": [
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/clusters/<int:cluster_id>/password/",
+        "name": "cluster_password"
+    },
+    "consul_services": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/consul/v1/catalog/services/",
+        "name": "consul_services"
+    },
+    "s3_user_key": {
+        "methods": [
+            "DELETE",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/users/<string:user_id>/keys/<string:acc_key>/",
+        "name": "s3_user_key"
+    },
+    "cluster_settings": {
+        "methods": [
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/settings/",
+        "name": "cluster_settings"
+    },
+    "ldap_defaults": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/ldap/settings/defaults/<string:kind>/",
+        "name": "ldap_defaults"
+    },
+    "snmp_test": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/snmp/test/",
+        "name": "snmp_test"
+    },
+    "abgw_migrate": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/migration/migrate/",
+        "name": "abgw_migrate"
+    },
+    "consul_service": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/consul/v1/catalog/service/<string:name>/",
+        "name": "consul_service"
+    },
+    "nfs_import_DEBUG": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/import/",
+        "name": "nfs_import_DEBUG"
+    },
+    "users": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/accounts/",
+        "name": "users"
+    },
+    "iscsi_target": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/<string:iqn>/",
+        "name": "iscsi_target"
+    },
+    "events": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/events/",
+        "name": "events"
+    },
+    "s3_cluster_truncate_stats_DEBUG": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/truncate-stats/",
+        "name": "s3_cluster_truncate_stats_DEBUG"
+    },
+    "cs_service": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/cses/<int:cs_id>/service/",
+        "name": "cs_service"
+    },
+    "performance_tests": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/performance_tests/<string:node_ip>/",
+        "name": "performance_tests"
+    },
+    "ostor_node_tasks": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/nodes/<uuid:node_id>/tasks/",
+        "name": "ostor_node_tasks"
+    },
+    "retrieve_ip_from_dns": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/migration/retrieve-ip-from-dns/",
+        "name": "retrieve_ip_from_dns"
+    },
+    "software_updates": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/software_updates/",
+        "name": "software_updates"
+    },
+    "access_role": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/accounts/access-roles/<string:access_role_id>/",
+        "name": "access_role"
+    },
+    "nfs_share_export_detail": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/shares/<string:share_name>/exports/<string:export_name>/",
+        "name": "nfs_share_export_detail"
+    },
+    "tasks_list": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/tasks/",
+        "name": "tasks_list"
+    },
+    "mds_stat": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/stat/mds/<int:mid>/",
+        "name": "mds_stat"
+    },
+    "acronis_monitoring": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/acronis-monitoring/",
+        "name": "acronis_monitoring"
+    },
+    "license_register": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/license/keys/register/",
+        "name": "license_register"
+    },
+    "snmp_mibs": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/snmp/mibs/",
+        "name": "snmp_mibs"
+    },
+    "nfs_release_nodes": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/release-nodes/",
+        "name": "nfs_release_nodes"
+    },
+    "netif_stat": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/stat/nodes/<string:node_id>/network/<string:ifname>/",
+        "name": "netif_stat"
+    },
+    "login": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/login/",
+        "name": "login"
+    },
+    "accounts_search_ldap_users": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/accounts/search-ldap-users/",
+        "name": "accounts_search_ldap_users"
+    },
+    "ldap_search": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/ldap/search/",
+        "name": "ldap_search"
+    },
+    "assign_node": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nodes/",
+        "name": "assign_node"
+    },
+    "abgw_refresh": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/refresh/",
+        "name": "abgw_refresh"
+    },
+    "mds": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/mdses/<int:mds_id>/",
+        "name": "mds"
+    },
+    "network_ifaces": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/net/ifs/",
+        "name": "network_ifaces"
+    },
+    "abgw_release": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/release/",
+        "name": "abgw_release"
+    },
+    "iface_role": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/network/interface/roles/<string:name>/",
+        "name": "iface_role"
+    },
+    "user": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/accounts/<int:user_id>/",
+        "name": "user"
+    },
+    "node": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/",
+        "name": "node"
+    },
+    "finalize_acronis_storage_migration": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/migration/finalize-acronis-storage-migration/",
+        "name": "finalize_acronis_storage_migration"
+    },
+    "nfs_share_exports_list": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/shares/<string:share_name>/exports/",
+        "name": "nfs_share_exports_list"
+    },
+    "accounts_whoami": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/accounts/whoami/",
+        "name": "accounts_whoami"
+    },
+    "bulk_assign_disk": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nodes/<uuid:node_id>/disks/",
+        "name": "bulk_assign_disk"
+    },
+    "iscsi_lun_stats": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/<string:target_iqn>/luns/<int:lunno>/stats/",
+        "name": "iscsi_lun_stats"
+    },
+    "release_disk": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nodes/<uuid:node_id>/disks/<string:disk_id>/release/",
+        "name": "release_disk"
+    },
+    "alert": {
+        "methods": [
+            "PUT",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/alerts/<int:alert_id>/",
+        "name": "alert"
+    },
+    "iscsi_refresh": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/refresh/",
+        "name": "iscsi_refresh"
+    },
+    "iscsi_target_stop": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/<string:iqn>/stop/",
+        "name": "iscsi_target_stop"
+    },
+    "alert_types": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/alerts/types/",
+        "name": "alert_types"
+    },
+    "cses": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/cses/",
+        "name": "cses"
+    },
+    "is_running": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/migration/is-running/",
+        "name": "is_running"
+    },
+    "list_backup_accounts": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/migration/list-backup-accounts/",
+        "name": "list_backup_accounts"
+    },
+    "default_mds_ipaddr": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/default_mds_ipaddr/",
+        "name": "default_mds_ipaddr"
+    },
+    "s3_bucket": {
+        "methods": [
+            "PUT",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/buckets/<string:name>/",
+        "name": "s3_bucket"
+    },
+    "ostor_overview": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/overview/",
+        "name": "ostor_overview"
+    },
+    "abgw_storage_params": {
+        "methods": [
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/storage-params/",
+        "name": "abgw_storage_params"
+    },
+    "node_stat": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/stat/nodes/<string:node_id>/",
+        "name": "node_stat"
+    },
+    "abgw_nodes": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/nodes/",
+        "name": "abgw_nodes"
+    },
+    "audit_log": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/audit_log/",
+        "name": "audit_log"
+    },
+    "blink_disk": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/disks/<string:disk_id>/blink/",
+        "name": "blink_disk"
+    },
+    "smtp_client_settings": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/notifications/smtp/",
+        "name": "smtp_client_settings"
+    },
+    "registration_token": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/registration/token/",
+        "name": "registration_token"
+    },
+    "abgw_assign": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/assign/",
+        "name": "abgw_assign"
+    },
+    "s3_geo_site": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/geo/sites/<string:uid>/",
+        "name": "s3_geo_site"
+    },
+    "space_history_collect_DEBUG": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/stat/space-history/collect/",
+        "name": "space_history_collect_DEBUG"
+    },
+    "blink_disk_stop": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/disks/<string:disk_id>/blink_stop/",
+        "name": "blink_disk_stop"
+    },
+    "abgw_re_register": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/re-register/",
+        "name": "abgw_re_register"
+    },
+    "crawl_to_node": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/ssh-keys/crawl/<uuid:node_id>/",
+        "name": "crawl_to_node"
+    },
+    "nfs_share_detail": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/shares/<string:share_name>/",
+        "name": "nfs_share_detail"
+    },
+    "network_refresh": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/net/refresh/",
+        "name": "network_refresh"
+    },
+    "register_node": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nodes/register/<string:host>/",
+        "name": "register_node"
+    },
+    "s3_user": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/users/<string:user_id>/",
+        "name": "s3_user"
+    },
+    "abgw_stat": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/stat/",
+        "name": "abgw_stat"
+    },
+    "node_disk": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/disks/<string:disk_id>/",
+        "name": "node_disk"
+    },
+    "cert_check": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/certificate/check/",
+        "name": "cert_check"
+    },
+    "software_updates_start": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/software_updates/start/",
+        "name": "software_updates_start"
+    },
+    "recovery_node": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/recovery/",
+        "name": "recovery_node"
+    },
+    "iface_role_recover": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/network/interface/roles/recover/",
+        "name": "iface_role_recover"
+    },
+    "assign_disk": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nodes/<uuid:node_id>/disks/<string:disk_id>/assign/",
+        "name": "assign_disk"
+    },
+    "examples": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/examples/",
+        "name": "examples"
+    },
+    "change_password": {
+        "methods": [
+            "PUT",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/accounts/change-password/",
+        "name": "change_password"
+    },
+    "license": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/license/",
+        "name": "license"
+    },
+    "iscsi_lun": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/<string:target_iqn>/luns/<int:lunno>/",
+        "name": "iscsi_lun"
+    },
+    "management-network-ssl": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/management-network-ssl/",
+        "name": "management-network-ssl"
+    },
+    "ha_configs": {
+        "methods": [
+            "GET",
+            "POST",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/ha/configs/",
+        "name": "ha_configs"
+    },
+    "iscsi_users": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/users/",
+        "name": "iscsi_users"
+    },
+    "version": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/version/",
+        "name": "version"
+    },
+    "services": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/services/<string:node_id>/",
+        "name": "services"
+    },
+    "node_disks": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/disks/",
+        "name": "node_disks"
+    },
+    "network_bonds": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/net/bonds/",
+        "name": "network_bonds"
+    },
+    "cluster": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/clusters/<int:cluster_id>/",
+        "name": "cluster"
+    },
+    "s3_user_keys": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/users/<string:user_id>/keys/",
+        "name": "s3_user_keys"
+    },
+    "logout": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/logout/",
+        "name": "logout"
+    },
+    "abgw_register": {
+        "methods": [
+            "GET",
+            "POST",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/register/",
+        "name": "abgw_register"
+    },
+    "registration_token_validation": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/registration/token/validation/",
+        "name": "registration_token_validation"
+    },
+    "make_new_cluster_config": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/clusters/make_new_cluster_config/",
+        "name": "make_new_cluster_config"
+    },
+    "make_assign_disk_config": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/disks/<string:disk_id>/assign_disk_config/",
+        "name": "make_assign_disk_config"
+    },
+    "alerts": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/alerts/",
+        "name": "alerts"
+    },
+    "meta": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/meta/",
+        "name": "meta"
+    },
+    "snmp": {
+        "methods": [
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/snmp/",
+        "name": "snmp"
+    },
+    "software_updates_check": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/software_updates/check_for_update/",
+        "name": "software_updates_check"
+    },
+    "cs_journal": {
+        "methods": [
+            "GET",
+            "DELETE",
+            "PUT",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/cses/<int:cs_id>/journal/",
+        "name": "cs_journal"
+    },
+    "nfs_assign_nodes": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/assign-nodes/",
+        "name": "nfs_assign_nodes"
+    },
+    "overview": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/overview/<int:cluster_id>/",
+        "name": "overview"
+    },
+    "abgw_volume_params": {
+        "methods": [
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/volume-params/",
+        "name": "abgw_volume_params"
+    },
+    "ostor_stat": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/statistics/",
+        "name": "ostor_stat"
+    },
+    "iscsi_target_stats": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/<string:target_iqn>/stats/",
+        "name": "iscsi_target_stats"
+    },
+    "snmp_zabbix": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/snmp/zabbix/",
+        "name": "snmp_zabbix"
+    },
+    "release_node": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/release/",
+        "name": "release_node"
+    },
+    "network_ifdown": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/net/ifs/<string:name>/down/",
+        "name": "network_ifdown"
+    },
+    "iscsi_luns": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/<string:target_iqn>/luns/",
+        "name": "iscsi_luns"
+    },
+    "nfs_share_stop": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/shares/<string:share_name>/stop/",
+        "name": "nfs_share_stop"
+    },
+    "ldap_settings": {
+        "methods": [
+            "GET",
+            "DELETE",
+            "PUT",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/ldap/settings/",
+        "name": "ldap_settings"
+    },
+    "ostor_assign_nodes": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/nodes/assign/",
+        "name": "ostor_assign_nodes"
+    },
+    "re_register_with_domain_name": {
+        "methods": [
+            "PUT",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/migration/re-register-with-new-name/",
+        "name": "re_register_with_domain_name"
+    },
+    "s3_cluster_import_DEBUG": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/import/",
+        "name": "s3_cluster_import_DEBUG"
+    },
+    "disk_stat": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/stat/nodes/<string:node_id>/disks/<string:disk_id>/",
+        "name": "disk_stat"
+    },
+    "iscsi_initiators": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/targets/<string:target_iqn>/initiators/",
+        "name": "iscsi_initiators"
+    },
+    "notifications": {
+        "methods": [
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/notifications/",
+        "name": "notifications"
+    },
+    "cs_invalidate": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/cses/refresh/",
+        "name": "cs_invalidate"
+    },
+    "access_roles": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/accounts/access-roles/",
+        "name": "access_roles"
+    },
+    "datastore": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/datastores/<string:name>/",
+        "name": "datastore"
+    },
+    "crawl_to_cluster": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/ssh-keys/crawl/",
+        "name": "crawl_to_cluster"
+    },
+    "cs": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/cses/<int:cs_id>/",
+        "name": "cs"
+    },
+    "nfs_share_start": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/shares/<string:share_name>/start/",
+        "name": "nfs_share_start"
+    },
+    "network_vlans": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/net/vlans/",
+        "name": "network_vlans"
+    },
+    "nfs": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/",
+        "name": "nfs"
+    },
+    "iface_roles": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/network/interface/roles/",
+        "name": "iface_roles"
+    },
+    "datastores": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/datastores/",
+        "name": "datastores"
+    },
+    "clusters": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/clusters/",
+        "name": "clusters"
+    },
+    "iscsi_user": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/iscsi/users/<string:username>/",
+        "name": "iscsi_user"
+    },
+    "nfs_auth_ldap_settings": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/auth/ldap-settings/",
+        "name": "nfs_auth_ldap_settings"
+    },
+    "register_new_node": {
+        "methods": [
+            "PUT",
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/registration/register/",
+        "name": "register_new_node"
+    },
+    "mdses": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/mdses/",
+        "name": "mdses"
+    },
+    "make_disks_available_roles": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/disks/make_disks_available_roles/",
+        "name": "make_disks_available_roles"
+    },
+    "release_disks": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nodes/<uuid:node_id>/disks/release/",
+        "name": "release_disks"
+    },
+    "ssh_keys": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/ssh-keys/",
+        "name": "ssh_keys"
+    },
+    "node_performance": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/performance/",
+        "name": "node_performance"
+    },
+    "x509_cert_validate_nodomain": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/certificate/validate-nodomain/",
+        "name": "x509_cert_validate_nodomain"
+    },
+    "ha_nodes_disjoin": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/ha/nodes/disjoin/",
+        "name": "ha_nodes_disjoin"
+    },
+    "stat": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/stat/",
+        "name": "stat"
+    },
+    "license_update": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/license/keys/update/",
+        "name": "license_update"
+    },
+    "notifications_settings": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/notifications/settings/",
+        "name": "notifications_settings"
+    },
+    "nfs_shares_list": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/shares/",
+        "name": "nfs_shares_list"
+    },
+    "ssh_key": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/ssh-keys/<uuid:ssh_key_id>/",
+        "name": "ssh_key"
+    },
+    "save_acronis_storage_ips": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/migration/save-acronis-storage-ips/",
+        "name": "save_acronis_storage_ips"
+    },
+    "license_as_activate": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/license/as/activate/",
+        "name": "license_as_activate"
+    },
+    "example": {
+        "methods": [
+            "DELETE",
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/examples/<int:id>/",
+        "name": "example"
+    },
+    "ssl": {
+        "methods": [
+            "GET",
+            "PUT",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/ssl/",
+        "name": "ssl"
+    },
+    "nodes": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/nodes/",
+        "name": "nodes"
+    },
+    "x509_cert_validate": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/certificate/validate/",
+        "name": "x509_cert_validate"
+    },
+    "s3_geo_self_site": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/geo/self-site/",
+        "name": "s3_geo_self_site"
+    },
+    "static": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/static/<path:filename>",
+        "name": "static"
+    },
+    "is_storage_registered_in_abc": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/migration/is-storage-registered/",
+        "name": "is_storage_registered_in_abc"
+    },
+    "make_node_join_config": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nodes/<string:node_id>/make_join_config/",
+        "name": "make_node_join_config"
+    },
+    "abgw_storage_params_verify": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/abgw/storage-params/verify/",
+        "name": "abgw_storage_params_verify"
+    },
+    "clusters_overview": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/overview/",
+        "name": "clusters_overview"
+    },
+    "nfs_auth_krb_settings": {
+        "methods": [
+            "GET",
+            "POST",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/nfs/auth/krb-settings/",
+        "name": "nfs_auth_krb_settings"
+    },
+    "task_detail": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/tasks/<string:task_id>/",
+        "name": "task_detail"
+    },
+    "ostor_release_nodes": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/s3/nodes/release/",
+        "name": "ostor_release_nodes"
+    },
+    "network_ifup": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/nodes/<uuid:node_id>/net/ifs/<string:name>/up/",
+        "name": "network_ifup"
+    },
+    "cluster_stat_refresh_DEBUG": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/stat/refresh/",
+        "name": "cluster_stat_refresh_DEBUG"
+    },
+    "license_as_test": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/license/as/test/",
+        "name": "license_as_test"
+    },
+    "mds_invalidate": {
+        "methods": [
+            "POST",
+            "OPTIONS"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/mdses/refresh/",
+        "name": "mds_invalidate"
+    },
+    "cs_stat": {
+        "methods": [
+            "GET",
+            "OPTIONS",
+            "HEAD"
+        ],
+        "uri": "/api/v2/<int:cluster_id>/stat/cs/<int:cid>/",
+        "name": "cs_stat"
+    }
+}

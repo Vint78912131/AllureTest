@@ -1,0 +1,104 @@
+{
+  "uid" : "441a41f04536ba79",
+  "name" : "Release nodes from ostor cluster sync",
+  "fullName" : "S3.releaseNodeSync",
+  "historyId" : "3a66c386ce92ca85a83b1b027901aa18",
+  "time" : {
+    "start" : 1680599119381,
+    "stop" : 1680599164877,
+    "duration" : 45496
+  },
+  "description" : "Release nodes from ostor cluster sync",
+  "descriptionHtml" : "<p>Release nodes from ostor cluster sync</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Release nodes from ostor cluster sync",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Удалить узел из кластера S3 sync.",
+      "time" : {
+        "start" : 1680599119539,
+        "stop" : 1680599164877,
+        "duration" : 45338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e24c5d8bc8a3817d",
+        "name" : "Response",
+        "source" : "e24c5d8bc8a3817d.txt",
+        "type" : "application/json",
+        "size" : 2143
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Release nodes from ostor cluster"
+  }, {
+    "name" : "epic",
+    "value" : "S3 Assign nodes to ostor cluster"
+  }, {
+    "name" : "story",
+    "value" : "Assign nodes to ostor cluster"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "33720@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "S3"
+  }, {
+    "name" : "testClass",
+    "value" : "S3"
+  }, {
+    "name" : "testMethod",
+    "value" : "releaseNodeSync"
+  }, {
+    "name" : "suite",
+    "value" : "S3"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#3d338201-1007-420a-9709-4c72bcfb6e57",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "441a41f04536ba79.json",
+  "parameterValues" : [ ]
+}

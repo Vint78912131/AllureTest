@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "is_online": false,
+            "cluster_id": 3,
+            "target_iqn": "iqn.2014-06.com.vstorage:123",
+            "used": 1048576,
+            "size": 1073741824,
+            "description": "new Lun",
+            "lunno": 1
+        },
+        {
+            "is_online": false,
+            "cluster_id": 3,
+            "target_iqn": "iqn.2014-06.com.vstorage:123",
+            "used": 1048576,
+            "size": 1073741824,
+            "description": "new Lun",
+            "lunno": 2
+        }
+    ]
+}

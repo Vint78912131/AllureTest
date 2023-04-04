@@ -1,0 +1,104 @@
+{
+  "uid" : "291a7b880dbd0037",
+  "name" : "Get cluster info by cluster_id",
+  "fullName" : "Clasters.getClusterInfo",
+  "historyId" : "8c09edc3a6182f0a06b297ae7a97ee52",
+  "time" : {
+    "start" : 1680603511727,
+    "stop" : 1680603511995,
+    "duration" : 268
+  },
+  "description" : "Get cluster info by cluster_id",
+  "descriptionHtml" : "<p>Get cluster info by cluster_id</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get cluster info by cluster_id",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить информацию о кластере по cluster_id.",
+      "time" : {
+        "start" : 1680603511869,
+        "stop" : 1680603511994,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42c8b1347cfccd22",
+        "name" : "Response",
+        "source" : "42c8b1347cfccd22.txt",
+        "type" : "application/json",
+        "size" : 500
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Cluster"
+  }, {
+    "name" : "epic",
+    "value" : "Cluster Cluster"
+  }, {
+    "name" : "feature",
+    "value" : "Get cluster info by cluster_id"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "16680@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Clasters"
+  }, {
+    "name" : "testClass",
+    "value" : "Clasters"
+  }, {
+    "name" : "testMethod",
+    "value" : "getClusterInfo"
+  }, {
+    "name" : "suite",
+    "value" : "Clasters"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#d056daed-27f9-40f0-aebf-0f9b8da0c5aa",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "291a7b880dbd0037.json",
+  "parameterValues" : [ ]
+}

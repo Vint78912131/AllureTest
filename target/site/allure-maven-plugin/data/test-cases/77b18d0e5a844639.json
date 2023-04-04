@@ -1,0 +1,102 @@
+{
+  "uid" : "77b18d0e5a844639",
+  "name" : "Provides info about all backend server endpoints",
+  "fullName" : "Meta.getMetaInfo",
+  "historyId" : "61e821408646cd3c28d900982e9e01a1",
+  "time" : {
+    "start" : 1680595152169,
+    "stop" : 1680595155389,
+    "duration" : 3220
+  },
+  "description" : "Provides info about all backend server endpoints",
+  "descriptionHtml" : "<p>Provides info about all backend server endpoints</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Provides info about all backend server endpoints",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить информацию о серверах метаданных",
+      "time" : {
+        "start" : 1680595154878,
+        "stop" : 1680595155378,
+        "duration" : 500
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9748bbfddad4c197",
+        "name" : "Вложение",
+        "source" : "9748bbfddad4c197.txt",
+        "type" : "application/json",
+        "size" : 38757
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Provides info about all backend server endpoints"
+  }, {
+    "name" : "epic",
+    "value" : "Meta"
+  }, {
+    "name" : "story",
+    "value" : "Meta"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "30116@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Meta"
+  }, {
+    "name" : "testClass",
+    "value" : "Meta"
+  }, {
+    "name" : "testMethod",
+    "value" : "getMetaInfo"
+  }, {
+    "name" : "suite",
+    "value" : "Meta"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#32efb505-60d9-47f8-99d4-5af821ecdc5b",
+    "type" : "custom"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77b18d0e5a844639.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,104 @@
+{
+  "uid" : "da31f798f372013",
+  "name" : "Get cluster license",
+  "fullName" : "License.getClusterLicense",
+  "historyId" : "853becd0d013813049a1b0ccbd09f9b9",
+  "time" : {
+    "start" : 1680605319706,
+    "stop" : 1680605320124,
+    "duration" : 418
+  },
+  "description" : "Get cluster license",
+  "descriptionHtml" : "<p>Get cluster license</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get cluster license",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить лицензию кластера.",
+      "time" : {
+        "start" : 1680605319850,
+        "stop" : 1680605320124,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7eb35b7b65291959",
+        "name" : "Response",
+        "source" : "7eb35b7b65291959.txt",
+        "type" : "application/json",
+        "size" : 13902
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Get cluster license"
+  }, {
+    "name" : "story",
+    "value" : "License"
+  }, {
+    "name" : "epic",
+    "value" : "License"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "27452@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "License"
+  }, {
+    "name" : "testClass",
+    "value" : "License"
+  }, {
+    "name" : "testMethod",
+    "value" : "getClusterLicense"
+  }, {
+    "name" : "suite",
+    "value" : "License"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#9197e300-51a7-4926-b543-cd4ab933c02a",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da31f798f372013.json",
+  "parameterValues" : [ ]
+}

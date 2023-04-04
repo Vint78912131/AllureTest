@@ -1,0 +1,101 @@
+{
+  "uid" : "cd137ada16fcf2f6",
+  "name" : "LogIn Storage Positive",
+  "fullName" : "Authorization.logInP",
+  "historyId" : "e2b995f2d1d14572ac7e9f9dfb3d40de",
+  "time" : {
+    "start" : 1680602943903,
+    "stop" : 1680602944074,
+    "duration" : 171
+  },
+  "description" : "LogIn Storage Positive",
+  "descriptionHtml" : "<p>LogIn Storage Positive</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "LogIn Storage Positive",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Успешная авторизация пользователя.",
+      "time" : {
+        "start" : 1680602943904,
+        "stop" : 1680602944074,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56f67ed0d1a72a20",
+        "name" : "Response",
+        "source" : "56f67ed0d1a72a20.txt",
+        "type" : "application/json",
+        "size" : 208
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "LogIn Positive"
+  }, {
+    "name" : "story",
+    "value" : "Authorization"
+  }, {
+    "name" : "epic",
+    "value" : "Authorization Endpoints"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "1916@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Authorization"
+  }, {
+    "name" : "testClass",
+    "value" : "Authorization"
+  }, {
+    "name" : "testMethod",
+    "value" : "logInP"
+  }, {
+    "name" : "suite",
+    "value" : "Authorization"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd137ada16fcf2f6.json",
+  "parameterValues" : [ ]
+}

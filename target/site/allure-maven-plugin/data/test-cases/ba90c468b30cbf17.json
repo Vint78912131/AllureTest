@@ -1,0 +1,104 @@
+{
+  "uid" : "ba90c468b30cbf17",
+  "name" : "Change the bucket registration in Notary Provider",
+  "fullName" : "S3.setOstoreBucket",
+  "historyId" : "9acba65033fb392a1e8537c0d9c59a70",
+  "time" : {
+    "start" : 1680599166548,
+    "stop" : 1680599166810,
+    "duration" : 262
+  },
+  "description" : "Change the bucket registration in Notary Provider",
+  "descriptionHtml" : "<p>Change the bucket registration in Notary Provider</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Change the bucket registration in Notary Provider",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Изменить данные доверенного центра для корзины кластера S3.",
+      "time" : {
+        "start" : 1680599166688,
+        "stop" : 1680599166810,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13a716f894a9064f",
+        "name" : "Response",
+        "source" : "13a716f894a9064f.txt",
+        "type" : "application/json",
+        "size" : 1791
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Change the bucket registration in Notary Provider"
+  }, {
+    "name" : "story",
+    "value" : "S3 bucket change"
+  }, {
+    "name" : "epic",
+    "value" : "S3 S3 bucket change"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "33720@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "S3"
+  }, {
+    "name" : "testClass",
+    "value" : "S3"
+  }, {
+    "name" : "testMethod",
+    "value" : "setOstoreBucket"
+  }, {
+    "name" : "suite",
+    "value" : "S3"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#87ad33d0-1d55-4f6e-b0c9-cc6ec5549f72",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba90c468b30cbf17.json",
+  "parameterValues" : [ ]
+}

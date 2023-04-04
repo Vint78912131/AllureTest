@@ -1,0 +1,114 @@
+{
+  "total" : 26,
+  "items" : [ {
+    "uid" : "d584eecdf392f9b8641b0c52edddb40e",
+    "name" : "Cluster iSCSI",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 17
+    }
+  }, {
+    "uid" : "ad7355de7a4b6f2eccd6843eae000487",
+    "name" : "S3 Assign nodes to ostor cluster",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "0fbff8975d966ca717a1c8890c9f1bdb",
+    "name" : "S3 Ostor Overview",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "8cfb6f2267150c94e489b1acf9db3b8b",
+    "name" : "Statistics",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "ab6f6d728463b9ac821ded299b282154",
+    "name" : "Cluster",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "8af7184e28aa457354c31b2cdc2fa2fe",
+    "name" : "User",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "b88c253ed09b68527d68f1fe73b4d817",
+    "name" : "Cluster License",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "daceb2636a9ac26db894444147053af0",
+    "name" : "S3 Ostor Cluster",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "690f1e710f952facc32d4770dbcdafca",
+    "name" : "Nodes Node",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "b987c16ccd1defa4abac7eeb67b2eeb5",
+    "name" : "MDS",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

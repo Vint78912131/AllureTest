@@ -1,0 +1,104 @@
+{
+  "uid" : "cee1dec540d8406e",
+  "name" : "Get network statistics",
+  "fullName" : "Statistics.getNetStat",
+  "historyId" : "53a95802b60b11b5374750cbc195c275",
+  "time" : {
+    "start" : 1680601926718,
+    "stop" : 1680601926972,
+    "duration" : 254
+  },
+  "description" : "Get network statistics",
+  "descriptionHtml" : "<p>Get network statistics</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get network statistics",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить сетевую статистику кластера.",
+      "time" : {
+        "start" : 1680601926867,
+        "stop" : 1680601926972,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47b2f360dcad2f34",
+        "name" : "Response",
+        "source" : "47b2f360dcad2f34.txt",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Statistics"
+  }, {
+    "name" : "feature",
+    "value" : "Get network statistics"
+  }, {
+    "name" : "epic",
+    "value" : "Statistics"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "16080@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Statistics"
+  }, {
+    "name" : "testClass",
+    "value" : "Statistics"
+  }, {
+    "name" : "testMethod",
+    "value" : "getNetStat"
+  }, {
+    "name" : "suite",
+    "value" : "Statistics"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#0fc68d3d-ef25-4169-8618-042302a48de6",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cee1dec540d8406e.json",
+  "parameterValues" : [ ]
+}

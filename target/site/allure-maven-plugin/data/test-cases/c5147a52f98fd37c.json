@@ -1,0 +1,104 @@
+{
+  "uid" : "c5147a52f98fd37c",
+  "name" : "Get services info",
+  "fullName" : "Services.getServicesInfo",
+  "historyId" : "6eadf4a3ad626e32ecc2f60cad9d045d",
+  "time" : {
+    "start" : 1680601137360,
+    "stop" : 1680601139461,
+    "duration" : 2101
+  },
+  "description" : "Get Storage services info",
+  "descriptionHtml" : "<p>Get Storage services info</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get Storage services info",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить список кластерных сервисов Р-Хранилища.",
+      "time" : {
+        "start" : 1680601138893,
+        "stop" : 1680601139456,
+        "duration" : 563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "939972351d14ee2f",
+        "name" : "Response",
+        "source" : "939972351d14ee2f.txt",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Services"
+  }, {
+    "name" : "epic",
+    "value" : "Cluster Services"
+  }, {
+    "name" : "feature",
+    "value" : "Storage Services info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "13748@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Services"
+  }, {
+    "name" : "testClass",
+    "value" : "Services"
+  }, {
+    "name" : "testMethod",
+    "value" : "getServicesInfo"
+  }, {
+    "name" : "suite",
+    "value" : "Services"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#b9083ff3-0c86-4fd1-b01f-0937b1f19571",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5147a52f98fd37c.json",
+  "parameterValues" : [ ]
+}

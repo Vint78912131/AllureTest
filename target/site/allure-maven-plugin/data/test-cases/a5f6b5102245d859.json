@@ -1,0 +1,73 @@
+{
+  "uid" : "a5f6b5102245d859",
+  "name" : "Add new iSCSI target",
+  "fullName" : "ISCSI.addIscsiTarget",
+  "historyId" : "2d6f70b483de748fee8420c44decbd39",
+  "time" : {
+    "start" : 1680604813708,
+    "stop" : 1680604813708,
+    "duration" : 0
+  },
+  "description" : "Add iSCSI target",
+  "descriptionHtml" : "<p>Add iSCSI target</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void ISCSI.addIscsiTarget() is @Disabled",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Cluster iSCSI"
+  }, {
+    "name" : "story",
+    "value" : "iSCSI Targets"
+  }, {
+    "name" : "feature",
+    "value" : "Add new iSCSI target"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "13976@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testClass",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testMethod",
+    "value" : "addIscsiTarget"
+  }, {
+    "name" : "suite",
+    "value" : "ISCSI"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#065bb299-7c34-470a-82a5-b9a78b5c8f36",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5f6b5102245d859.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,19 @@
+{
+    "error": {
+        "http_code": 404,
+        "message": "Cannot find S3 cluster for storage cluster",
+        "traceback": [
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/decorators.py\", line 28, in wrapper\n    return func(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/s3/users.py\", line 98, in put\n    user = create_s3_users_service(logger).modify_user(cluster_id, user_id, **payload)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/users/services.py\", line 53, in modify_user\n    user = S3UserFinder(logger).find(cluster_id, user_id)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/users/users.py\", line 192, in find\n    user_data = self._user_gateway.find(cluster_id, user_id)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/users/users.py\", line 35, in find\n    return self._request(cluster_id, query, user_id)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/s3/users/users.py\", line 21, in _request\n    raise ObjectDoesNotExist('Cannot find S3 cluster for storage cluster')\n",
+            "backend.business.models.exceptions.ObjectDoesNotExist: Cannot find S3 cluster for storage cluster\n"
+        ],
+        "subsytem": "presentation",
+        "errors": null
+    },
+    "message": "Cannot find S3 cluster for storage cluster (Deprecated field)"
+}

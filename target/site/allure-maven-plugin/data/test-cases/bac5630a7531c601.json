@@ -1,0 +1,104 @@
+{
+  "uid" : "bac5630a7531c601",
+  "name" : "Get list of all clusters with state",
+  "fullName" : "Overview.getOverview",
+  "historyId" : "3076e9d38c84755e67c564e9b8a7fd2b",
+  "time" : {
+    "start" : 1680606207186,
+    "stop" : 1680606208911,
+    "duration" : 1725
+  },
+  "description" : "Get list of all clusters with state",
+  "descriptionHtml" : "<p>Get list of all clusters with state</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get list of all clusters with state",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить информацию о всех кластерах с состоянием.",
+      "time" : {
+        "start" : 1680606208667,
+        "stop" : 1680606208906,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3ac8672e24d5dc6",
+        "name" : "Response",
+        "source" : "b3ac8672e24d5dc6.txt",
+        "type" : "application/json",
+        "size" : 904
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Overview"
+  }, {
+    "name" : "story",
+    "value" : "Overview"
+  }, {
+    "name" : "feature",
+    "value" : "Get list of all clusters"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "6388@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Overview"
+  }, {
+    "name" : "testClass",
+    "value" : "Overview"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOverview"
+  }, {
+    "name" : "suite",
+    "value" : "Overview"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#2df3576d-9c6d-4ca2-9972-4bf32c5cdc41",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bac5630a7531c601.json",
+  "parameterValues" : [ ]
+}

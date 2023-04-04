@@ -1,0 +1,104 @@
+{
+  "uid" : "798f75bfcb20857f",
+  "name" : "Start iSCSI target",
+  "fullName" : "ISCSI.startIscsiTarget",
+  "historyId" : "55a7c0460cc71f6a029f6af821bd7360",
+  "time" : {
+    "start" : 1680604805988,
+    "stop" : 1680604808189,
+    "duration" : 2201
+  },
+  "description" : "Start iSCSI target",
+  "descriptionHtml" : "<p>Start iSCSI target</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Start iSCSI target",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запустить цель iSCSI.",
+      "time" : {
+        "start" : 1680604806133,
+        "stop" : 1680604808189,
+        "duration" : 2056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "241f06ede5bd8adb",
+        "name" : "Response",
+        "source" : "241f06ede5bd8adb.txt",
+        "type" : "application/json",
+        "size" : 1041
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Cluster iSCSI"
+  }, {
+    "name" : "story",
+    "value" : "iSCSI Target"
+  }, {
+    "name" : "feature",
+    "value" : "Start iSCSI target by iqn"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "13976@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testClass",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testMethod",
+    "value" : "startIscsiTarget"
+  }, {
+    "name" : "suite",
+    "value" : "ISCSI"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#1532a9d7-e6f0-499e-9f23-7b8cc6f0ba8a",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "798f75bfcb20857f.json",
+  "parameterValues" : [ ]
+}

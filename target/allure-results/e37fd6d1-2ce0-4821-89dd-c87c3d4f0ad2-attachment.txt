@@ -1,0 +1,16 @@
+{
+    "is_online": true,
+    "cluster_id": 3,
+    "target_iqn": "iqn.2014-06.com.vstorage:123",
+    "used": 1048576,
+    "size": 1073741824,
+    "tier": 0,
+    "redundancy": {
+        "type": "raid6",
+        "n": 2,
+        "m": 1
+    },
+    "description": "new Lun",
+    "failure_domain": "host",
+    "lunno": 1
+}

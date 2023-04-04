@@ -1,0 +1,104 @@
+{
+  "uid" : "c710b9010a36717b",
+  "name" : "Get Chunks Server statistics",
+  "fullName" : "Statistics.getCSStat",
+  "historyId" : "66a80e54c1d2797efde092f3cc19858b",
+  "time" : {
+    "start" : 1680601927252,
+    "stop" : 1680601927523,
+    "duration" : 271
+  },
+  "description" : "Get Chunks Server statistics",
+  "descriptionHtml" : "<p>Get Chunks Server statistics</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get Chunks Server statistics",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить статистику серверов фрагментов кластера.",
+      "time" : {
+        "start" : 1680601927402,
+        "stop" : 1680601927523,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2e36465ceeb6104c",
+        "name" : "Response",
+        "source" : "2e36465ceeb6104c.txt",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Statistics"
+  }, {
+    "name" : "epic",
+    "value" : "Statistics"
+  }, {
+    "name" : "feature",
+    "value" : "Get Chunks Server statistics"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "16080@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Statistics"
+  }, {
+    "name" : "testClass",
+    "value" : "Statistics"
+  }, {
+    "name" : "testMethod",
+    "value" : "getCSStat"
+  }, {
+    "name" : "suite",
+    "value" : "Statistics"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#a8245f7f-79b1-4579-bf0b-ab3b4bee6167",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c710b9010a36717b.json",
+  "parameterValues" : [ ]
+}

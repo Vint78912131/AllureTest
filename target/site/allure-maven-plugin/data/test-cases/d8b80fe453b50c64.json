@@ -1,0 +1,104 @@
+{
+  "uid" : "d8b80fe453b50c64",
+  "name" : "Create ostor cluster PUT sync",
+  "fullName" : "S3.setNewOstoreClusterPutSync",
+  "historyId" : "859ab15508ffc7e14e8fa9949f76c46b",
+  "time" : {
+    "start" : 1680599167368,
+    "stop" : 1680599167622,
+    "duration" : 254
+  },
+  "description" : "Create new ostor cluster PUT sync",
+  "descriptionHtml" : "<p>Create new ostor cluster PUT sync</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Create new ostor cluster PUT sync",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать новый кластер S3 PUT sync.",
+      "time" : {
+        "start" : 1680599167509,
+        "stop" : 1680599167621,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8effa60921ca88ca",
+        "name" : "Response",
+        "source" : "8effa60921ca88ca.txt",
+        "type" : "application/json",
+        "size" : 1156
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "S3 Ostor Cluster"
+  }, {
+    "name" : "feature",
+    "value" : "Create ostor cluster PUT sync"
+  }, {
+    "name" : "story",
+    "value" : "Ostor Cluster"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "33720@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "S3"
+  }, {
+    "name" : "testClass",
+    "value" : "S3"
+  }, {
+    "name" : "testMethod",
+    "value" : "setNewOstoreClusterPutSync"
+  }, {
+    "name" : "suite",
+    "value" : "S3"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#9671a2cf-98ec-4b28-a46d-19a40db49947",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8b80fe453b50c64.json",
+  "parameterValues" : [ ]
+}

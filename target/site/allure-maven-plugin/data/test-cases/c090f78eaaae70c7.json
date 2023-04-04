@@ -1,0 +1,70 @@
+{
+  "uid" : "c090f78eaaae70c7",
+  "name" : "Delete iSCSI LUN",
+  "fullName" : "ISCSI.deleteIscsiLunInfo",
+  "historyId" : "1a40f445d2bae29fe5fc654eb8056066",
+  "time" : {
+    "start" : 1680604808876,
+    "stop" : 1680604808876,
+    "duration" : 0
+  },
+  "description" : "Delete iSCSI LUN",
+  "descriptionHtml" : "<p>Delete iSCSI LUN</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void ISCSI.deleteIscsiLunInfo() is @Disabled",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "iSCSI LUN"
+  }, {
+    "name" : "feature",
+    "value" : "Delete iSCSI LUN by lunno"
+  }, {
+    "name" : "epic",
+    "value" : "Cluster iSCSI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "13976@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testClass",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteIscsiLunInfo"
+  }, {
+    "name" : "suite",
+    "value" : "ISCSI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#74d3d35e-410c-4d91-9321-435ff0419b9e",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c090f78eaaae70c7.json",
+  "parameterValues" : [ ]
+}

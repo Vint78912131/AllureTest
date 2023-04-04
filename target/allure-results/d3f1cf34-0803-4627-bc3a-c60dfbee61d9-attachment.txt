@@ -1,0 +1,70 @@
+{
+    "data": [
+        {
+            "is_in_ha": false,
+            "is_online": true,
+            "host": "192.168.12.45",
+            "roles": {
+                "mdses": {
+                    "being_released": 0,
+                    "avail": 1
+                },
+                "cses": {
+                    "active": 1,
+                    "being_released": 0
+                }
+            },
+            "ipaddr": "192.168.12.45",
+            "tasks": null,
+            "id": "059ac5a5-0724-4d66-a09b-a9163ba00859",
+            "is_virt": false,
+            "is_assigned": true,
+            "is_primary": false
+        },
+        {
+            "is_in_ha": false,
+            "is_online": true,
+            "host": "192.168.12.47",
+            "roles": {
+                "mdses": {
+                    "being_released": 0,
+                    "avail": 1
+                },
+                "cses": {
+                    "active": 1,
+                    "being_released": 0
+                }
+            },
+            "ipaddr": "192.168.12.47",
+            "tasks": null,
+            "id": "2f56b362-e93b-45d4-af91-637daf472fed",
+            "is_virt": true,
+            "is_assigned": true,
+            "is_primary": false
+        },
+        {
+            "is_in_ha": false,
+            "is_online": true,
+            "host": "192.168.12.46",
+            "roles": {
+                "mdses": {
+                    "being_released": 0,
+                    "avail": 1
+                },
+                "iscsi": {
+                    "stopped": 1
+                },
+                "cses": {
+                    "active": 1,
+                    "being_released": 0
+                }
+            },
+            "ipaddr": "192.168.12.46",
+            "tasks": null,
+            "id": "849e6c83-1b10-489f-855a-dc2fa80271e2",
+            "is_virt": true,
+            "is_assigned": true,
+            "is_primary": false
+        }
+    ]
+}

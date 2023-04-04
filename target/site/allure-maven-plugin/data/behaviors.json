@@ -1,0 +1,1901 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "S3 S3 users list",
+    "children" : [ {
+      "name" : "Get all S3 users",
+      "children" : [ {
+        "name" : "S3 users list",
+        "children" : [ {
+          "name" : "Get S3 users info",
+          "uid" : "5060c287be2a4280",
+          "parentUid" : "17bd4c7efdb5f1d8f605b2f9e1728ec7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599116786,
+            "stop" : 1680599118629,
+            "duration" : 1843
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "17bd4c7efdb5f1d8f605b2f9e1728ec7"
+      } ],
+      "uid" : "2f64567f9a52623253833664e0d0b915"
+    }, {
+      "name" : "Add new S3 user",
+      "children" : [ {
+        "name" : "S3 users list",
+        "children" : [ {
+          "name" : "Add new S3 user",
+          "uid" : "ae51451dd0a65a93",
+          "parentUid" : "f1f585167da9eb249feb0737105e4230",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599165152,
+            "stop" : 1680599165450,
+            "duration" : 298
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f1f585167da9eb249feb0737105e4230"
+      } ],
+      "uid" : "fec9703f94ae3431e6e2f2793430e1a2"
+    } ],
+    "uid" : "334dae6b64ce3ffdb2ff25e2f89bdb8a"
+  }, {
+    "name" : "S3 Ostor Cluster",
+    "children" : [ {
+      "name" : "Get ostor cluster detail info",
+      "children" : [ {
+        "name" : "Ostor Cluster",
+        "children" : [ {
+          "name" : "Get ostor cluster detail",
+          "uid" : "93d3fba0c1bd7544",
+          "parentUid" : "1c4e93b83ee31ebec1794acbe1fbb201",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599118687,
+            "stop" : 1680599119076,
+            "duration" : 389
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1c4e93b83ee31ebec1794acbe1fbb201"
+      } ],
+      "uid" : "cb923a0bccf0d077747bce45eeaf8997"
+    }, {
+      "name" : "Create ostor cluster",
+      "children" : [ {
+        "name" : "Ostor Cluster",
+        "children" : [ {
+          "name" : "Create ostor cluster",
+          "uid" : "a94f0384beae43a4",
+          "parentUid" : "ca157274aeb030e72fa10abadbdd01eb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599164882,
+            "stop" : 1680599165146,
+            "duration" : 264
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Create ostor cluster sync",
+          "uid" : "4699f95d5d495e70",
+          "parentUid" : "ca157274aeb030e72fa10abadbdd01eb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599167097,
+            "stop" : 1680599167365,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ca157274aeb030e72fa10abadbdd01eb"
+      } ],
+      "uid" : "3335e5436b822953d28c26df01517247"
+    }, {
+      "name" : "Create ostor cluster PUT sync",
+      "children" : [ {
+        "name" : "Ostor Cluster",
+        "children" : [ {
+          "name" : "Create ostor cluster PUT sync",
+          "uid" : "d8b80fe453b50c64",
+          "parentUid" : "75b27ec5bad638f30654fba203ade237",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599167368,
+            "stop" : 1680599167622,
+            "duration" : 254
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "75b27ec5bad638f30654fba203ade237"
+      } ],
+      "uid" : "587c8f56fc9c0685c64335e54ad85eed"
+    }, {
+      "name" : "Create ostor cluster PUT",
+      "children" : [ {
+        "name" : "Ostor Cluster",
+        "children" : [ {
+          "name" : "Create ostor cluster PUT",
+          "uid" : "56ad23491a7300a9",
+          "parentUid" : "d19a646fd04365c65b058d5396d83c4a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599168184,
+            "stop" : 1680599168435,
+            "duration" : 251
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d19a646fd04365c65b058d5396d83c4a"
+      } ],
+      "uid" : "05cf1109d4b4cf17d23db8b26cc59b1a"
+    } ],
+    "uid" : "daceb2636a9ac26db894444147053af0"
+  }, {
+    "name" : "S3 Assign nodes to ostor cluster",
+    "children" : [ {
+      "name" : "Assign nodes to ostor cluster sync",
+      "children" : [ {
+        "name" : "Assign nodes to ostor cluster",
+        "children" : [ {
+          "name" : "Assign nodes to ostor cluster sync",
+          "uid" : "417d1e2f05d01392",
+          "parentUid" : "17871dc44b4607c9c05640817c398496",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599119082,
+            "stop" : 1680599119377,
+            "duration" : 295
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "17871dc44b4607c9c05640817c398496"
+      } ],
+      "uid" : "972b0d16d3da4b13221ea57a4ab4c81a"
+    }, {
+      "name" : "Release nodes from ostor cluster",
+      "children" : [ {
+        "name" : "Assign nodes to ostor cluster",
+        "children" : [ {
+          "name" : "Release nodes from ostor cluster sync",
+          "uid" : "441a41f04536ba79",
+          "parentUid" : "c933f4903c0adf72125dbceb264921d6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599119381,
+            "stop" : 1680599164877,
+            "duration" : 45496
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Release nodes from ostor cluster",
+          "uid" : "b9000c929993b664",
+          "parentUid" : "c933f4903c0adf72125dbceb264921d6",
+          "status" : "failed",
+          "time" : {
+            "start" : 1680599165722,
+            "stop" : 1680599166023,
+            "duration" : 301
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c933f4903c0adf72125dbceb264921d6"
+      } ],
+      "uid" : "2c8182b97c64c92688809c7671fe7e4f"
+    }, {
+      "name" : "Assign nodes to ostor cluster",
+      "children" : [ {
+        "name" : "Assign nodes to ostor cluster",
+        "children" : [ {
+          "name" : "Assign nodes to ostor cluster",
+          "uid" : "1f533e29b6345004",
+          "parentUid" : "e1e88fa1266526821395ad5f43548ad7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599166033,
+            "stop" : 1680599166277,
+            "duration" : 244
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e1e88fa1266526821395ad5f43548ad7"
+      } ],
+      "uid" : "2756e7e5b59bac3e54eebbf0d863c0b6"
+    } ],
+    "uid" : "ad7355de7a4b6f2eccd6843eae000487"
+  }, {
+    "name" : "S3 S3 user detail",
+    "children" : [ {
+      "name" : "Delete S3 user by user_id",
+      "children" : [ {
+        "name" : "S3 user detail",
+        "children" : [ {
+          "name" : "Delete S3 user by user_id",
+          "uid" : "7adcfe482ee70e88",
+          "parentUid" : "c2d101405917c2023b7b9830612b3c0e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599165466,
+            "stop" : 1680599165719,
+            "duration" : 253
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c2d101405917c2023b7b9830612b3c0e"
+      } ],
+      "uid" : "00bed4a377321a331699109411f93770"
+    }, {
+      "name" : "Get all S3 user info",
+      "children" : [ {
+        "name" : "S3 user detail",
+        "children" : [ {
+          "name" : "Get all S3 user info",
+          "uid" : "74630189b5412cbc",
+          "parentUid" : "90fd116c64017e0e2ffe74f47a1cc1e5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599166280,
+            "stop" : 1680599166544,
+            "duration" : 264
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "90fd116c64017e0e2ffe74f47a1cc1e5"
+      } ],
+      "uid" : "3d6ee204cc68129123d6787271aaa497"
+    }, {
+      "name" : "Change S3 user info",
+      "children" : [ {
+        "name" : "S3 user detail",
+        "children" : [ {
+          "name" : "Change S3 user info",
+          "uid" : "fc535fee575750c2",
+          "parentUid" : "2d615e1046c3957eaff4d276dfa0d54b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599166825,
+            "stop" : 1680599167092,
+            "duration" : 267
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2d615e1046c3957eaff4d276dfa0d54b"
+      } ],
+      "uid" : "59a2f53f1d1684528dbc6f12bf18e795"
+    } ],
+    "uid" : "350a91fb59cb260a5799ec049281e763"
+  }, {
+    "name" : "S3 S3 bucket change",
+    "children" : [ {
+      "name" : "Change the bucket registration in Notary Provider",
+      "children" : [ {
+        "name" : "S3 bucket change",
+        "children" : [ {
+          "name" : "Change the bucket registration in Notary Provider",
+          "uid" : "ba90c468b30cbf17",
+          "parentUid" : "7046245f1851669112aaf52743aca393",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599166548,
+            "stop" : 1680599166810,
+            "duration" : 262
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7046245f1851669112aaf52743aca393"
+      } ],
+      "uid" : "e229d6c4f39b0d2568d7cf189ceed62f"
+    } ],
+    "uid" : "fcad8dec188e867947a59d006d1836f8"
+  }, {
+    "name" : "S3 Ostor Overview",
+    "children" : [ {
+      "name" : "Get S3 store info",
+      "children" : [ {
+        "name" : "Ostor Overview",
+        "children" : [ {
+          "name" : "Object store overview details",
+          "uid" : "50a03ff9d936bc50",
+          "parentUid" : "2a2acfe19676dad92f45e3f923c2e568",
+          "status" : "failed",
+          "time" : {
+            "start" : 1680599167637,
+            "stop" : 1680599167896,
+            "duration" : 259
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2a2acfe19676dad92f45e3f923c2e568"
+      } ],
+      "uid" : "fb10d968051911856a51830cba3daabe"
+    } ],
+    "uid" : "0fbff8975d966ca717a1c8890c9f1bdb"
+  }, {
+    "name" : "S3 S3 bucket list",
+    "children" : [ {
+      "name" : "Get all S3 buckets info",
+      "children" : [ {
+        "name" : "S3 bucket list",
+        "children" : [ {
+          "name" : "Get all S3 buckets info",
+          "uid" : "922e9d66b21d57f8",
+          "parentUid" : "0b1fae78cd83a8380e00e9629864f344",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680599167913,
+            "stop" : 1680599168178,
+            "duration" : 265
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0b1fae78cd83a8380e00e9629864f344"
+      } ],
+      "uid" : "de383864a5c689eea1d7e7ffdd6cb7f5"
+    } ],
+    "uid" : "04c9023f3b1f2a8803b99fddb4ef4710"
+  }, {
+    "name" : "Performance",
+    "children" : [ {
+      "name" : "Start task which test disk performance",
+      "children" : [ {
+        "name" : "Performance",
+        "children" : [ {
+          "name" : "Start task which test disk performance",
+          "uid" : "be7e128d49e95794",
+          "parentUid" : "48bd09030ad33451d41e6892e37a33d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680600935969,
+            "stop" : 1680600937718,
+            "duration" : 1749
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "48bd09030ad33451d41e6892e37a33d8"
+      } ],
+      "uid" : "2af1f1048bcab1e9c7b614e8ab7e1f87"
+    } ],
+    "uid" : "cb29b15bd1da3d26805141fcafef754d"
+  }, {
+    "name" : "Meta",
+    "children" : [ {
+      "name" : "Provides info about all backend server endpoints",
+      "children" : [ {
+        "name" : "Meta",
+        "children" : [ {
+          "name" : "Provides info about all backend server endpoints",
+          "uid" : "d77fb352d45e3d17",
+          "parentUid" : "ecfac9dc7bbc24ce0b2ae63acce160e8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680600944660,
+            "stop" : 1680600946436,
+            "duration" : 1776
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ecfac9dc7bbc24ce0b2ae63acce160e8"
+      } ],
+      "uid" : "150daedaa1cfb4f87ab9285fbd7ba6f0"
+    } ],
+    "uid" : "7b568acec40909eb2c87d8fade6bc42f"
+  }, {
+    "name" : "Cluster Services",
+    "children" : [ {
+      "name" : "Storage Services info",
+      "children" : [ {
+        "name" : "Services",
+        "children" : [ {
+          "name" : "Get services info",
+          "uid" : "c5147a52f98fd37c",
+          "parentUid" : "f46b6fefcc3867cca7916f3cd65a99d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601137360,
+            "stop" : 1680601139461,
+            "duration" : 2101
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f46b6fefcc3867cca7916f3cd65a99d2"
+      } ],
+      "uid" : "a69c784a97e2f68cc1c93ca62b3db9cb"
+    } ],
+    "uid" : "c16c4c8d9415b58f3419e737152932b7"
+  }, {
+    "name" : "Software update",
+    "children" : [ {
+      "name" : "Get Software update status",
+      "children" : [ {
+        "name" : "Software update",
+        "children" : [ {
+          "name" : "Get Software update status",
+          "uid" : "17473aef9a2cb060",
+          "parentUid" : "fa859df722cf89ee63455fd90c160ece",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601422984,
+            "stop" : 1680601424833,
+            "duration" : 1849
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fa859df722cf89ee63455fd90c160ece"
+      } ],
+      "uid" : "60cfd6a53cd68b52fd282ece3c09a8ea"
+    }, {
+      "name" : "Check Software update status",
+      "children" : [ {
+        "name" : "Software update",
+        "children" : [ {
+          "name" : "Check Software update status",
+          "uid" : "4486ccca324132d4",
+          "parentUid" : "a616b1bcb68fd9e01f6a45f4c27c807f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601424896,
+            "stop" : 1680601425168,
+            "duration" : 272
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a616b1bcb68fd9e01f6a45f4c27c807f"
+      } ],
+      "uid" : "c99f02d4753a8737c28eccea1145088f"
+    }, {
+      "name" : "Start Software update",
+      "children" : [ {
+        "name" : "Software update",
+        "children" : [ {
+          "name" : "Start Software update",
+          "uid" : "cc611918735ba4fc",
+          "parentUid" : "93ab74c04b24b9456bde52314c5cad25",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601425172,
+            "stop" : 1680601425404,
+            "duration" : 232
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "93ab74c04b24b9456bde52314c5cad25"
+      } ],
+      "uid" : "ba216404335abe39c1606edb1aa132aa"
+    } ],
+    "uid" : "4a53fb994d30bb2f71c09c9b666510aa"
+  }, {
+    "name" : "Statistics",
+    "children" : [ {
+      "name" : "Get disk statistics",
+      "children" : [ {
+        "name" : "Statistics",
+        "children" : [ {
+          "name" : "Get disk statistics",
+          "uid" : "71dbc6dc4553651d",
+          "parentUid" : "df557c4559f73603fe29894cb1e63242",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601924590,
+            "stop" : 1680601926376,
+            "duration" : 1786
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "df557c4559f73603fe29894cb1e63242"
+      } ],
+      "uid" : "0276baf37172207b86e9cf2b578ba3c4"
+    }, {
+      "name" : "Get cluster statistics",
+      "children" : [ {
+        "name" : "Statistics",
+        "children" : [ {
+          "name" : "Get cluster statistics",
+          "uid" : "cc32d8285b71e40c",
+          "parentUid" : "67753580f8a8c2dd64ef4b6bec68275a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601926434,
+            "stop" : 1680601926713,
+            "duration" : 279
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "67753580f8a8c2dd64ef4b6bec68275a"
+      } ],
+      "uid" : "4ebc159fad5b337e33e68a11a71f1a57"
+    }, {
+      "name" : "Get network statistics",
+      "children" : [ {
+        "name" : "Statistics",
+        "children" : [ {
+          "name" : "Get network statistics",
+          "uid" : "cee1dec540d8406e",
+          "parentUid" : "b7aea64077aebfc29e31952feb16da22",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601926718,
+            "stop" : 1680601926972,
+            "duration" : 254
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b7aea64077aebfc29e31952feb16da22"
+      } ],
+      "uid" : "d530c79512c7ffbdee5cbcbde312a407"
+    }, {
+      "name" : "Get node statistics",
+      "children" : [ {
+        "name" : "Statistics",
+        "children" : [ {
+          "name" : "Get node statistics",
+          "uid" : "a95d8d30b5d4e0b5",
+          "parentUid" : "c91ac44141ca9a0c01a9b0d349fe750b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601926976,
+            "stop" : 1680601927249,
+            "duration" : 273
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c91ac44141ca9a0c01a9b0d349fe750b"
+      } ],
+      "uid" : "0b12452e20518bd498d1cce17faa97e2"
+    }, {
+      "name" : "Get Chunks Server statistics",
+      "children" : [ {
+        "name" : "Statistics",
+        "children" : [ {
+          "name" : "Get Chunks Server statistics",
+          "uid" : "c710b9010a36717b",
+          "parentUid" : "64556e005c6627e8f164bd621e09e174",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601927252,
+            "stop" : 1680601927523,
+            "duration" : 271
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "64556e005c6627e8f164bd621e09e174"
+      } ],
+      "uid" : "81d064386f95eadba828dba7c668ba33"
+    }, {
+      "name" : "Get Object Store cluster statistics",
+      "children" : [ {
+        "name" : "Statistics",
+        "children" : [ {
+          "name" : "Get Object Store cluster statistics",
+          "uid" : "ec1ea5aec58ff3e5",
+          "parentUid" : "e5523a3b7236f2dcfff532dbe68c2c18",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601927527,
+            "stop" : 1680601927885,
+            "duration" : 358
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e5523a3b7236f2dcfff532dbe68c2c18"
+      } ],
+      "uid" : "67254b88e48c52b4c9fd79525455ab72"
+    }, {
+      "name" : "Get Metadata Server statistics",
+      "children" : [ {
+        "name" : "Statistics",
+        "children" : [ {
+          "name" : "Get Metadata Server statistics",
+          "uid" : "ca9af5e1eb815bb7",
+          "parentUid" : "f1ed40aacf2c96bc36815d12e5e6f9b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680601927888,
+            "stop" : 1680601928156,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f1ed40aacf2c96bc36815d12e5e6f9b5"
+      } ],
+      "uid" : "6eedb99d664222e06be43bf29f187bee"
+    } ],
+    "uid" : "8cfb6f2267150c94e489b1acf9db3b8b"
+  }, {
+    "name" : "Tasks",
+    "children" : [ {
+      "name" : "Get Tasks info list",
+      "children" : [ {
+        "name" : "Tasks",
+        "children" : [ {
+          "name" : "Get Tasks info list",
+          "uid" : "6151a1a1cd1a3bf",
+          "parentUid" : "b4da409daafe592126f33d80c2d14735",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602084909,
+            "stop" : 1680602086713,
+            "duration" : 1804
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b4da409daafe592126f33d80c2d14735"
+      } ],
+      "uid" : "3bdd2c1e619deb9e931792c30d86f0e4"
+    }, {
+      "name" : "Get Task info by id",
+      "children" : [ {
+        "name" : "Tasks",
+        "children" : [ {
+          "name" : "Get Task info by id",
+          "uid" : "7027ca06872c157e",
+          "parentUid" : "36963097f72b23086e3e495ad29955ad",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602086779,
+            "stop" : 1680602087065,
+            "duration" : 286
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "36963097f72b23086e3e495ad29955ad"
+      } ],
+      "uid" : "11be7984a45cfdf8a1540dc46b96f405"
+    } ],
+    "uid" : "f756bcb7d5b58e2f9cb9f7bb86442774"
+  }, {
+    "name" : "User",
+    "children" : [ {
+      "name" : "Create new Storage user",
+      "children" : [ {
+        "name" : "User Users",
+        "children" : [ {
+          "name" : "Create new Storage user",
+          "uid" : "563ef3c6c8c33062",
+          "parentUid" : "17ddc45f4ab96b41a65092cff4ffa315",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602649047,
+            "stop" : 1680602650844,
+            "duration" : 1797
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "17ddc45f4ab96b41a65092cff4ffa315"
+      } ],
+      "uid" : "7a28565c2e595d3ba1fd33c7ccdb7cb3"
+    }, {
+      "name" : "Get Storage user info by id",
+      "children" : [ {
+        "name" : "User User",
+        "children" : [ {
+          "name" : "Get Storage user info by id",
+          "uid" : "13a60a3a27b4ee04",
+          "parentUid" : "213f79688b4659bd264bd734127b4d88",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602650913,
+            "stop" : 1680602651216,
+            "duration" : 303
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "213f79688b4659bd264bd734127b4d88"
+      } ],
+      "uid" : "fb695d046e0743e1f95d2fb89ab68a3a"
+    }, {
+      "name" : "Change Storage user info",
+      "children" : [ {
+        "name" : "User User",
+        "children" : [ {
+          "name" : "Change Storage user info",
+          "uid" : "54bec68c9feb7ee3",
+          "parentUid" : "9939ec0515a8fb6e5ecbc9a638a35d30",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602651219,
+            "stop" : 1680602651522,
+            "duration" : 303
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9939ec0515a8fb6e5ecbc9a638a35d30"
+      } ],
+      "uid" : "57fa924a6f675c3a370defb95d71888b"
+    }, {
+      "name" : "Delete Storage user by id",
+      "children" : [ {
+        "name" : "User User",
+        "children" : [ {
+          "name" : "Delete Storage user by id",
+          "uid" : "fbef06ce69946b20",
+          "parentUid" : "87fe110e8e114835b2c5f0887993c42b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602651526,
+            "stop" : 1680602651793,
+            "duration" : 267
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "87fe110e8e114835b2c5f0887993c42b"
+      } ],
+      "uid" : "3dbeace1adedace0ca90efdcd4bc3549"
+    }, {
+      "name" : "Get Storage all users info",
+      "children" : [ {
+        "name" : "User Users",
+        "children" : [ {
+          "name" : "Get Storage users info",
+          "uid" : "fe332b4ab7c06bca",
+          "parentUid" : "65a5777eb78bcdac6d744398c6a42a41",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602651797,
+            "stop" : 1680602652043,
+            "duration" : 246
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "65a5777eb78bcdac6d744398c6a42a41"
+      } ],
+      "uid" : "6fb1e97b5b8cb37f038d699412513834"
+    } ],
+    "uid" : "8af7184e28aa457354c31b2cdc2fa2fe"
+  }, {
+    "name" : "Authorization Endpoints",
+    "children" : [ {
+      "name" : "LogIn Negative",
+      "children" : [ {
+        "name" : "Authorization",
+        "children" : [ {
+          "name" : "LogIn Storage Negative",
+          "uid" : "46ae20630ea37845",
+          "parentUid" : "8e1a93ef2cc4d69f928b61173199e196",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602942201,
+            "stop" : 1680602943842,
+            "duration" : 1641
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8e1a93ef2cc4d69f928b61173199e196"
+      } ],
+      "uid" : "69770e4073354066cf4550ad72cb4f8d"
+    }, {
+      "name" : "LogIn Positive",
+      "children" : [ {
+        "name" : "Authorization",
+        "children" : [ {
+          "name" : "LogIn Storage Positive",
+          "uid" : "cd137ada16fcf2f6",
+          "parentUid" : "cbf9af3747b990a969ed42b2b19b8129",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602943903,
+            "stop" : 1680602944074,
+            "duration" : 171
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cbf9af3747b990a969ed42b2b19b8129"
+      } ],
+      "uid" : "892fe7dbdc5d6909167aecd247201cd5"
+    }, {
+      "name" : "LogOut",
+      "children" : [ {
+        "name" : "Authorization",
+        "children" : [ {
+          "name" : "LogOut Storage",
+          "uid" : "e391cefaec0385e3",
+          "parentUid" : "bbb59e5fe28df8801450b55bfd691ec4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680602944077,
+            "stop" : 1680602944169,
+            "duration" : 92
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bbb59e5fe28df8801450b55bfd691ec4"
+      } ],
+      "uid" : "bc22ce579103b35b809824890f0db1f3"
+    } ],
+    "uid" : "efdb541d2e30f0f03db0091039fba210"
+  }, {
+    "name" : "Cluster",
+    "children" : [ {
+      "name" : "Start chunks server",
+      "children" : [ {
+        "name" : "Chunk Servers",
+        "children" : [ {
+          "name" : "Start chunks server",
+          "uid" : "d8f1041f55d2c7ce",
+          "parentUid" : "8b5f82fba408c8f82e01d5aaa65b6f82",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680603257450,
+            "stop" : 1680603259303,
+            "duration" : 1853
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8b5f82fba408c8f82e01d5aaa65b6f82"
+      } ],
+      "uid" : "0f23f7a633cf140ce871fa946af881cb"
+    }, {
+      "name" : "Get chunks server work info",
+      "children" : [ {
+        "name" : "Chunk Servers",
+        "children" : [ {
+          "name" : "Get chunks server work info",
+          "uid" : "45ec41e79512d80",
+          "parentUid" : "3ee5cbe7e7eecca8fb97d2e4886517b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680603259356,
+            "stop" : 1680603259630,
+            "duration" : 274
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3ee5cbe7e7eecca8fb97d2e4886517b8"
+      } ],
+      "uid" : "b11dd1b48026f0c9ec9ee3fc4636f9bf"
+    }, {
+      "name" : "Get chunks server list",
+      "children" : [ {
+        "name" : "Chunk Servers",
+        "children" : [ {
+          "name" : "Get chunks server list",
+          "uid" : "415f36c96ae9c499",
+          "parentUid" : "dee472f996b1e1eb604f90abddc57786",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680603259633,
+            "stop" : 1680603259877,
+            "duration" : 244
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dee472f996b1e1eb604f90abddc57786"
+      } ],
+      "uid" : "fea6feafaca16548110277304898580e"
+    }, {
+      "name" : "Delete chunks server",
+      "children" : [ {
+        "name" : "Chunk Servers",
+        "children" : [ {
+          "name" : "Delete chunks server",
+          "uid" : "87f99db5e39c8ea7",
+          "parentUid" : "fed3a034eb0f5035203d93e2d0b078c5",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1680603259884,
+            "stop" : 1680603259884,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fed3a034eb0f5035203d93e2d0b078c5"
+      } ],
+      "uid" : "66f933d7cfc7ef3b65474e553fa62fc3"
+    }, {
+      "name" : "Get cluster events by params",
+      "children" : [ {
+        "name" : "Cluster Events",
+        "children" : [ {
+          "name" : "Get cluster events by params",
+          "uid" : "e586f63e0937c2e6",
+          "parentUid" : "6bff0f3f336a0084f88955d8770fa9d0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680603720845,
+            "stop" : 1680603722611,
+            "duration" : 1766
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6bff0f3f336a0084f88955d8770fa9d0"
+      } ],
+      "uid" : "139620e62688952942274cdd20f6eec0"
+    }, {
+      "name" : "Get cluster events",
+      "children" : [ {
+        "name" : "Cluster Events",
+        "children" : [ {
+          "name" : "Get cluster events",
+          "uid" : "a7dd837fecb3c26d",
+          "parentUid" : "8388c0e0b16c562312eead3d55518388",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680603722663,
+            "stop" : 1680603722958,
+            "duration" : 295
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8388c0e0b16c562312eead3d55518388"
+      } ],
+      "uid" : "0b9f988881c21deb372ac284b6c8f15a"
+    } ],
+    "uid" : "ab6f6d728463b9ac821ded299b282154"
+  }, {
+    "name" : "Cluster Clusters",
+    "children" : [ {
+      "name" : "Get cluster password by cluster_id",
+      "children" : [ {
+        "name" : "Clusters",
+        "children" : [ {
+          "name" : "Get cluster password by cluster_id",
+          "uid" : "4d5ca5fa83ab2489",
+          "parentUid" : "1a49a9cb7a02cc90015eaf671287ebf2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680603509901,
+            "stop" : 1680603511668,
+            "duration" : 1767
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1a49a9cb7a02cc90015eaf671287ebf2"
+      } ],
+      "uid" : "ef365cc422e87396f6f96cf48fe5bb03"
+    }, {
+      "name" : "Get Cluster info",
+      "children" : [ {
+        "name" : "Clusters",
+        "children" : [ {
+          "name" : "Get clusters info",
+          "uid" : "eda9ea0191ece1d1",
+          "parentUid" : "ce2a527c33da8314fbeac0a06c89d69b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680603511998,
+            "stop" : 1680603512281,
+            "duration" : 283
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ce2a527c33da8314fbeac0a06c89d69b"
+      } ],
+      "uid" : "256fe435349d2349c683b0abb372d34d"
+    }, {
+      "name" : "Register new Cluster",
+      "children" : [ {
+        "name" : "Clusters",
+        "children" : [ {
+          "name" : "Register new Cluster",
+          "uid" : "965f4e78058b0b91",
+          "parentUid" : "8a78e6458ad98461f9a2c9814651f818",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1680603512289,
+            "stop" : 1680603512289,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8a78e6458ad98461f9a2c9814651f818"
+      } ],
+      "uid" : "2f9f01e62b8d16dd5ff6c298e124be44"
+    } ],
+    "uid" : "62be2095b499c4460b9039ff687dfd5f"
+  }, {
+    "name" : "Cluster Cluster",
+    "children" : [ {
+      "name" : "Get cluster info by cluster_id",
+      "children" : [ {
+        "name" : "Cluster",
+        "children" : [ {
+          "name" : "Get cluster info by cluster_id",
+          "uid" : "291a7b880dbd0037",
+          "parentUid" : "83d564fbfc6e00b46c80177453fa465a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680603511727,
+            "stop" : 1680603511995,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "83d564fbfc6e00b46c80177453fa465a"
+      } ],
+      "uid" : "1395e484941017788699c36b1c4cfe81"
+    }, {
+      "name" : "Delete cluster by cluster_id",
+      "children" : [ {
+        "name" : "Cluster",
+        "children" : [ {
+          "name" : "Delete cluster by cluster_id",
+          "uid" : "d04bac4fa08ac6e3",
+          "parentUid" : "5e646f2d9081a9fa516072bc92ffff4b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1680603512286,
+            "stop" : 1680603512286,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5e646f2d9081a9fa516072bc92ffff4b"
+      } ],
+      "uid" : "6c93262a2dd78ddff586c652f8f1434a"
+    } ],
+    "uid" : "8ef95564e3281a51d3251a6f462bcb2f"
+  }, {
+    "name" : "Cluster iSCSI",
+    "children" : [ {
+      "name" : "Change iSCSI target Info by iqn",
+      "children" : [ {
+        "name" : "iSCSI Target",
+        "children" : [ {
+          "name" : "Change iSCSI target",
+          "uid" : "fa2379aed98c265c",
+          "parentUid" : "ba7c1244889b32265ed80dd744fb7129",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1680604802457,
+            "stop" : 1680604802457,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ba7c1244889b32265ed80dd744fb7129"
+      } ],
+      "uid" : "03f6ae6930f53b75b481786cb0604a78"
+    }, {
+      "name" : "Get iSCSI target Info by iqn",
+      "children" : [ {
+        "name" : "iSCSI Target",
+        "children" : [ {
+          "name" : "Get iSCSI target Info by iqn",
+          "uid" : "d6a0d22ba9a4d5c5",
+          "parentUid" : "872648bbeb3ecd24b98bbb48f296769d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604802530,
+            "stop" : 1680604804301,
+            "duration" : 1771
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "872648bbeb3ecd24b98bbb48f296769d"
+      } ],
+      "uid" : "8c91f59edcd34c09e899505e58602b90"
+    }, {
+      "name" : "Get iSCSI LUN detail info by lunno",
+      "children" : [ {
+        "name" : "iSCSI LUN",
+        "children" : [ {
+          "name" : "Get iSCSI LUN info by lunno",
+          "uid" : "25f3e6d4c6fccb5b",
+          "parentUid" : "53db762ecfeeeccd4b20c1dea4528ce5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604804312,
+            "stop" : 1680604804976,
+            "duration" : 664
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "53db762ecfeeeccd4b20c1dea4528ce5"
+      }, {
+        "name" : "iSCSI LUN details",
+        "children" : [ {
+          "name" : "Get iSCSI LUN detail info",
+          "uid" : "df140ac0035399e3",
+          "parentUid" : "a1ad2fef9f11c5d73d3b88a9d14691c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604808193,
+            "stop" : 1680604808873,
+            "duration" : 680
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a1ad2fef9f11c5d73d3b88a9d14691c0"
+      } ],
+      "uid" : "633c3f8b63886829f99489e66265d4ac"
+    }, {
+      "name" : "Add new iSCSI LUN",
+      "children" : [ {
+        "name" : "iSCSI LUNs",
+        "children" : [ {
+          "name" : "Add new iSCSI LUN",
+          "uid" : "e2e9997a0f6e722b",
+          "parentUid" : "8954195bcc4780ee3b68cf99e252b435",
+          "status" : "failed",
+          "time" : {
+            "start" : 1680604804980,
+            "stop" : 1680604805719,
+            "duration" : 739
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8954195bcc4780ee3b68cf99e252b435"
+      } ],
+      "uid" : "e58c09ab92bf96547cf5630e6e1436b9"
+    }, {
+      "name" : "Get iSCSI LUNs Info by iqn",
+      "children" : [ {
+        "name" : "iSCSI LUNs",
+        "children" : [ {
+          "name" : "Get iSCSI LUNs info",
+          "uid" : "b0c074d789f34ba8",
+          "parentUid" : "474ce2dbe5b5a84824438594f429e4f5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604805729,
+            "stop" : 1680604805984,
+            "duration" : 255
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "474ce2dbe5b5a84824438594f429e4f5"
+      } ],
+      "uid" : "9fa88b44a439dfe9a42990cca036e318"
+    }, {
+      "name" : "Start iSCSI target by iqn",
+      "children" : [ {
+        "name" : "iSCSI Target",
+        "children" : [ {
+          "name" : "Start iSCSI target",
+          "uid" : "798f75bfcb20857f",
+          "parentUid" : "6edc447e72a040b8f4cfd6a1a03207cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604805988,
+            "stop" : 1680604808189,
+            "duration" : 2201
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6edc447e72a040b8f4cfd6a1a03207cd"
+      } ],
+      "uid" : "a5f6c15b52b4441a8fe7cddb82fa6bab"
+    }, {
+      "name" : "Delete iSCSI LUN by lunno",
+      "children" : [ {
+        "name" : "iSCSI LUN",
+        "children" : [ {
+          "name" : "Delete iSCSI LUN",
+          "uid" : "c090f78eaaae70c7",
+          "parentUid" : "c6349a3ed7ac5db773b0693026a94d37",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1680604808876,
+            "stop" : 1680604808876,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c6349a3ed7ac5db773b0693026a94d37"
+      } ],
+      "uid" : "cb2a81e0f2375cb3875657e4d25a67ee"
+    }, {
+      "name" : "Stop iSCSI target by iqn",
+      "children" : [ {
+        "name" : "iSCSI Target",
+        "children" : [ {
+          "name" : "Stop iSCSI target",
+          "uid" : "dfb9ee6d288a2af7",
+          "parentUid" : "c5b701ee950091d2fcae599a9d429463",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604808878,
+            "stop" : 1680604810767,
+            "duration" : 1889
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c5b701ee950091d2fcae599a9d429463"
+      } ],
+      "uid" : "0b09aa6bc127986a8fb52b41249454d6"
+    }, {
+      "name" : "Delete iSCSI user by name",
+      "children" : [ {
+        "name" : "iSCSI User",
+        "children" : [ {
+          "name" : "Delete iSCSI user",
+          "uid" : "b30e0767975a6063",
+          "parentUid" : "7b6b9ab9bb3cd4b0e7026f6a8ae1c968",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604810770,
+            "stop" : 1680604812655,
+            "duration" : 1885
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7b6b9ab9bb3cd4b0e7026f6a8ae1c968"
+      } ],
+      "uid" : "b3614cc5596cb74edd0221da5abfbac1"
+    }, {
+      "name" : "Change iSCSI user info by name",
+      "children" : [ {
+        "name" : "iSCSI User",
+        "children" : [ {
+          "name" : "Change iSCSI user info",
+          "uid" : "283fef3bf4564921",
+          "parentUid" : "75e9525a8bd0623f4935aca85ebd61cc",
+          "status" : "failed",
+          "time" : {
+            "start" : 1680604812659,
+            "stop" : 1680604812934,
+            "duration" : 275
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "75e9525a8bd0623f4935aca85ebd61cc"
+      } ],
+      "uid" : "e7e5242519b736d484849676f0084bc7"
+    }, {
+      "name" : "Get iSCSI initiators Info by iqn",
+      "children" : [ {
+        "name" : "iSCSI Initiators",
+        "children" : [ {
+          "name" : "Get iSCSI initiators list",
+          "uid" : "64cbf8a9f753677c",
+          "parentUid" : "8bde13c2cde47daf2cdb8b6e9240e107",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604812950,
+            "stop" : 1680604813198,
+            "duration" : 248
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8bde13c2cde47daf2cdb8b6e9240e107"
+      } ],
+      "uid" : "704e5e93bd6baab1e0d773efe00fe998"
+    }, {
+      "name" : "Get all iSCSI targets info",
+      "children" : [ {
+        "name" : "iSCSI Targets",
+        "children" : [ {
+          "name" : "Get all iSCSI targets Info",
+          "uid" : "e78c63b3b48ec5c5",
+          "parentUid" : "c54fb51091cfe29ef541b141221d3720",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604813202,
+            "stop" : 1680604813456,
+            "duration" : 254
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c54fb51091cfe29ef541b141221d3720"
+      } ],
+      "uid" : "a8e2a5fda71b9e3ef7876b322d9b10e5"
+    }, {
+      "name" : "Get iSCSI user info by name",
+      "children" : [ {
+        "name" : "iSCSI User",
+        "children" : [ {
+          "name" : "Get iSCSI user info",
+          "uid" : "d1688dc3f4c02882",
+          "parentUid" : "c34438c2af2415a4d97bb65b1b3dbcd7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604813459,
+            "stop" : 1680604813702,
+            "duration" : 243
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c34438c2af2415a4d97bb65b1b3dbcd7"
+      } ],
+      "uid" : "9e39eb7f3c72420f1236676bcb1ae1d1"
+    }, {
+      "name" : "Delete iSCSI target Info by iqn",
+      "children" : [ {
+        "name" : "iSCSI Target",
+        "children" : [ {
+          "name" : "Delete iSCSI target",
+          "uid" : "ae782d7c576d0968",
+          "parentUid" : "48758fe46430a2e1509b1b5b0d2b1993",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1680604813706,
+            "stop" : 1680604813706,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "48758fe46430a2e1509b1b5b0d2b1993"
+      } ],
+      "uid" : "1cedcf80f1dd9385b49fb460c050a743"
+    }, {
+      "name" : "Add new iSCSI target",
+      "children" : [ {
+        "name" : "iSCSI Targets",
+        "children" : [ {
+          "name" : "Add new iSCSI target",
+          "uid" : "a5f6b5102245d859",
+          "parentUid" : "c9a7e724eddff985a0f7b9b6c67e84b9",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1680604813708,
+            "stop" : 1680604813708,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c9a7e724eddff985a0f7b9b6c67e84b9"
+      } ],
+      "uid" : "2f92844bbe6c7ac879acf53b99c58c41"
+    }, {
+      "name" : "Add iSCSI user",
+      "children" : [ {
+        "name" : "iSCSI Users",
+        "children" : [ {
+          "name" : "Add new iSCSI user",
+          "uid" : "db1e583dcdb91268",
+          "parentUid" : "7412e1b277fc75ac67b9e64a12b14519",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604813710,
+            "stop" : 1680604816092,
+            "duration" : 2382
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7412e1b277fc75ac67b9e64a12b14519"
+      } ],
+      "uid" : "12d1663a92b0c2292ce9c27de54ffa4e"
+    }, {
+      "name" : "iSCSI users info",
+      "children" : [ {
+        "name" : "iSCSI Users",
+        "children" : [ {
+          "name" : "Get iSCSI users info",
+          "uid" : "75b6561b3d01df06",
+          "parentUid" : "b56346fe8f24875d4c1caf8d49896ce2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680604816095,
+            "stop" : 1680604816345,
+            "duration" : 250
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b56346fe8f24875d4c1caf8d49896ce2"
+      } ],
+      "uid" : "df8f4ef1cbd1e4685af4cea59ef73761"
+    } ],
+    "uid" : "d584eecdf392f9b8641b0c52edddb40e"
+  }, {
+    "name" : "Cluster License",
+    "children" : [ {
+      "name" : "Get cluster license",
+      "children" : [ {
+        "name" : "License",
+        "children" : [ {
+          "name" : "Get cluster license info",
+          "uid" : "344313d26ddb6806",
+          "parentUid" : "fc64db8d75feae84e408e3e3dd10a43b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605316310,
+            "stop" : 1680605318080,
+            "duration" : 1770
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fc64db8d75feae84e408e3e3dd10a43b"
+      } ],
+      "uid" : "48293e3e33d78f9da5bd0ae4e974f4a0"
+    }, {
+      "name" : "Update cluster license",
+      "children" : [ {
+        "name" : "License",
+        "children" : [ {
+          "name" : "Update cluster license",
+          "uid" : "a69c02b6d384b282",
+          "parentUid" : "aac8779f186ac4cc31933e0c404925c5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605318133,
+            "stop" : 1680605318584,
+            "duration" : 451
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "aac8779f186ac4cc31933e0c404925c5"
+      } ],
+      "uid" : "7f428e1b0add3910b112088ddc01aabc"
+    }, {
+      "name" : "Get cluster license info",
+      "children" : [ {
+        "name" : "License",
+        "children" : [ {
+          "name" : "Get cluster license info",
+          "uid" : "bfd68ba08815086e",
+          "parentUid" : "21017070e59c74443d06d955f81d5afd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605318836,
+            "stop" : 1680605319087,
+            "duration" : 251
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "21017070e59c74443d06d955f81d5afd"
+      } ],
+      "uid" : "72c29ead4734f6f792e26e10882d8b53"
+    }, {
+      "name" : "Register new cluster license",
+      "children" : [ {
+        "name" : "License",
+        "children" : [ {
+          "name" : "Register new cluster license",
+          "uid" : "27227e7086a23e03",
+          "parentUid" : "d8449715948cc42ca366115c94cda9c7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605319092,
+            "stop" : 1680605319436,
+            "duration" : 344
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d8449715948cc42ca366115c94cda9c7"
+      } ],
+      "uid" : "0bb530c5db33d58a5902317c3f25dbbc"
+    }, {
+      "name" : "Check cluster license info",
+      "children" : [ {
+        "name" : "License",
+        "children" : [ {
+          "name" : "Check cluster license",
+          "uid" : "50f4df9320bf9bcc",
+          "parentUid" : "8b74b76147cc6abe6d74eab65f8af8f2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605319439,
+            "stop" : 1680605319702,
+            "duration" : 263
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8b74b76147cc6abe6d74eab65f8af8f2"
+      } ],
+      "uid" : "069b757e7076a2754933cc52f86a8a85"
+    } ],
+    "uid" : "b88c253ed09b68527d68f1fe73b4d817"
+  }, {
+    "name" : "License",
+    "children" : [ {
+      "name" : "Activate license keys",
+      "children" : [ {
+        "name" : "License",
+        "children" : [ {
+          "name" : "Activate license keys",
+          "uid" : "90f37c773b233d1e",
+          "parentUid" : "42bdfb6f8853f36d7ca28c44e424896c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605318586,
+            "stop" : 1680605318832,
+            "duration" : 246
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "42bdfb6f8853f36d7ca28c44e424896c"
+      } ],
+      "uid" : "091f2ee8a39f1de93df9fe007dcccde9"
+    }, {
+      "name" : "Get cluster license",
+      "children" : [ {
+        "name" : "License",
+        "children" : [ {
+          "name" : "Get cluster license",
+          "uid" : "da31f798f372013",
+          "parentUid" : "f380047e56ce68d75af05c45f97f1b5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605319706,
+            "stop" : 1680605320124,
+            "duration" : 418
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f380047e56ce68d75af05c45f97f1b5b"
+      } ],
+      "uid" : "49f5ba0b3bf49a6c1090586c7f682649"
+    } ],
+    "uid" : "f98423f2e16157057835f56f24177028"
+  }, {
+    "name" : "MDS",
+    "children" : [ {
+      "name" : "Remove mds from cluster",
+      "children" : [ {
+        "name" : "MDS MDS",
+        "children" : [ {
+          "name" : "Remove mds from cluster",
+          "uid" : "b3146b26890aaa78",
+          "parentUid" : "177d2d56aa5c2d61ee18e1262985e8e3",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1680605576557,
+            "stop" : 1680605576558,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "177d2d56aa5c2d61ee18e1262985e8e3"
+      } ],
+      "uid" : "5638bf5fb7edd311441fc21ed1afee3a"
+    }, {
+      "name" : "Provides info about single mds",
+      "children" : [ {
+        "name" : "MDS MDS",
+        "children" : [ {
+          "name" : "Provides info about single mds",
+          "uid" : "f29c442d4a3681fd",
+          "parentUid" : "cc926f1fb7a00320582f430c7a86919e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605576627,
+            "stop" : 1680605578429,
+            "duration" : 1802
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cc926f1fb7a00320582f430c7a86919e"
+      } ],
+      "uid" : "eae48ef4718d484f33fa95dbd03a1d74"
+    }, {
+      "name" : "Provides info about all mds servers in cluster",
+      "children" : [ {
+        "name" : "MDS MDSS",
+        "children" : [ {
+          "name" : "Provides info about all mds servers in cluster",
+          "uid" : "55475fcdef3e1c0a",
+          "parentUid" : "6bdb4fc4323a127d30a7892384335c07",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605578442,
+            "stop" : 1680605578701,
+            "duration" : 259
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6bdb4fc4323a127d30a7892384335c07"
+      } ],
+      "uid" : "20038cb619db6dc72c3e42506cb6ced9"
+    }, {
+      "name" : "Start task which create new mds",
+      "children" : [ {
+        "name" : "MDS MDSS",
+        "children" : [ {
+          "name" : "Start task which create new mds",
+          "uid" : "9e18b8ca9ea4a9b",
+          "parentUid" : "341c9da5fe4ace5a533727082bdbf5ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680605578704,
+            "stop" : 1680605578955,
+            "duration" : 251
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "341c9da5fe4ace5a533727082bdbf5ab"
+      } ],
+      "uid" : "2b2a6874b5f05964bfc47ff614d6a156"
+    } ],
+    "uid" : "b987c16ccd1defa4abac7eeb67b2eeb5"
+  }, {
+    "name" : "Nodes Node",
+    "children" : [ {
+      "name" : "Get default ip address for Metadata Server",
+      "children" : [ {
+        "name" : "Node",
+        "children" : [ {
+          "name" : "Get default ip address for MDS",
+          "uid" : "b8f70fd686cbece1",
+          "parentUid" : "cb4b60c2aef49db2319128b283dfcaf5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606075854,
+            "stop" : 1680606079611,
+            "duration" : 3757
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cb4b60c2aef49db2319128b283dfcaf5"
+      } ],
+      "uid" : "1ba7af118fe24ce688652c69a140c20b"
+    }, {
+      "name" : "Get Node network list by node_id",
+      "children" : [ {
+        "name" : "Node",
+        "children" : [ {
+          "name" : "Get node network list",
+          "uid" : "a7b2e4231367ce36",
+          "parentUid" : "b1bb7c9f83f0a0ed6b29eaeb63c9dd06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606079666,
+            "stop" : 1680606080022,
+            "duration" : 356
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b1bb7c9f83f0a0ed6b29eaeb63c9dd06"
+      } ],
+      "uid" : "18869b57acd206670673df6b9f3578ad"
+    }, {
+      "name" : "Get Node network detail by ifname",
+      "children" : [ {
+        "name" : "Node",
+        "children" : [ {
+          "name" : "Get node network detail",
+          "uid" : "bc78d158b538f44b",
+          "parentUid" : "e38c68f6619d20a2200f50d4f8a662e7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606081496,
+            "stop" : 1680606081731,
+            "duration" : 235
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e38c68f6619d20a2200f50d4f8a662e7"
+      } ],
+      "uid" : "c07598418f13bf819840830f1539509e"
+    }, {
+      "name" : "Get Node detail info by node_id",
+      "children" : [ {
+        "name" : "Node",
+        "children" : [ {
+          "name" : "Get detail info about node services and disks",
+          "uid" : "50bd70c220397aa",
+          "parentUid" : "24e0b9e4e89203a5aee33189ca1d9dd4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606081734,
+            "stop" : 1680606081977,
+            "duration" : 243
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "24e0b9e4e89203a5aee33189ca1d9dd4"
+      } ],
+      "uid" : "470b6d8707911d121526b71feeb7af68"
+    } ],
+    "uid" : "690f1e710f952facc32d4770dbcdafca"
+  }, {
+    "name" : "Nodes Disks",
+    "children" : [ {
+      "name" : "Get Node disks info by ip",
+      "children" : [ {
+        "name" : "Disks",
+        "children" : [ {
+          "name" : "Get Node disks info",
+          "uid" : "3f990a569ac601ae",
+          "parentUid" : "56f45d1626fec83aff5ca9af82340930",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606080026,
+            "stop" : 1680606080281,
+            "duration" : 255
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "56f45d1626fec83aff5ca9af82340930"
+      } ],
+      "uid" : "80dc172f8d72de0ff0447ef51bf3f6c2"
+    } ],
+    "uid" : "aba6063556bc7299de065fb0b4676e3e"
+  }, {
+    "name" : "Nodes Nodes",
+    "children" : [ {
+      "name" : "Get detail info about Node",
+      "children" : [ {
+        "name" : "Nodes",
+        "children" : [ {
+          "name" : "Get Node detail info",
+          "uid" : "232868bd47c015e4",
+          "parentUid" : "eb1bb387c6a8332e92ec886426b06db3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606080284,
+            "stop" : 1680606080670,
+            "duration" : 386
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eb1bb387c6a8332e92ec886426b06db3"
+      } ],
+      "uid" : "5571b533331e9727d0299374c877ca4e"
+    }, {
+      "name" : "Get Nodes list by cluster_id",
+      "children" : [ {
+        "name" : "Nodes",
+        "children" : [ {
+          "name" : "Get Nodes list",
+          "uid" : "1e14e924959eed15",
+          "parentUid" : "534c721e6fad3f9da9e55893d09ba0a5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606080673,
+            "stop" : 1680606081228,
+            "duration" : 555
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Get list of all nodes in cluster",
+          "uid" : "ca309dbf1e39bbbc",
+          "parentUid" : "534c721e6fad3f9da9e55893d09ba0a5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606081981,
+            "stop" : 1680606082242,
+            "duration" : 261
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "534c721e6fad3f9da9e55893d09ba0a5"
+      } ],
+      "uid" : "12deab29af0ff1c875759f54440675a7"
+    }, {
+      "name" : "Register new Node in cluster",
+      "children" : [ {
+        "name" : "Nodes",
+        "children" : [ {
+          "name" : "Register new Node in cluster",
+          "uid" : "987d42f72a8fd483",
+          "parentUid" : "c7303399fc50bdd36d3d4b9b29e5f11d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606081232,
+            "stop" : 1680606081493,
+            "duration" : 261
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c7303399fc50bdd36d3d4b9b29e5f11d"
+      } ],
+      "uid" : "80e66a1dfcd1e40713a214a8a3e3ad35"
+    } ],
+    "uid" : "d358781ee2061e013e81bd47ae81705b"
+  }, {
+    "name" : "Overview",
+    "children" : [ {
+      "name" : "Get list of all clusters",
+      "children" : [ {
+        "name" : "Overview",
+        "children" : [ {
+          "name" : "Get list of all clusters with state",
+          "uid" : "bac5630a7531c601",
+          "parentUid" : "beff1ca0221ca269ad2ef1989a8f895e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606207186,
+            "stop" : 1680606208911,
+            "duration" : 1725
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "beff1ca0221ca269ad2ef1989a8f895e"
+      } ],
+      "uid" : "9e5ffde5d02779fbfc7140d0a67a5e3a"
+    }, {
+      "name" : "Cluster overview details info",
+      "children" : [ {
+        "name" : "Overview",
+        "children" : [ {
+          "name" : "Cluster overview details",
+          "uid" : "6000c1c4922b4b11",
+          "parentUid" : "a4a5f87fe25c3df61bf6ad6136caef3b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680606208967,
+            "stop" : 1680606209250,
+            "duration" : 283
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a4a5f87fe25c3df61bf6ad6136caef3b"
+      } ],
+      "uid" : "af73e1093fe3171687eaaf22f1400872"
+    } ],
+    "uid" : "db6f5503e8a26c9668b8d1ba119afaca"
+  } ]
+}

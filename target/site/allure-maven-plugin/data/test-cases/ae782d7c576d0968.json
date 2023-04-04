@@ -1,0 +1,73 @@
+{
+  "uid" : "ae782d7c576d0968",
+  "name" : "Delete iSCSI target",
+  "fullName" : "ISCSI.deleteIscsiTarget",
+  "historyId" : "df048a16e5ee643d37f6fb774277459b",
+  "time" : {
+    "start" : 1680604813706,
+    "stop" : 1680604813706,
+    "duration" : 0
+  },
+  "description" : "Delete iSCSI target",
+  "descriptionHtml" : "<p>Delete iSCSI target</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void ISCSI.deleteIscsiTarget() is @Disabled",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Delete iSCSI target Info by iqn"
+  }, {
+    "name" : "story",
+    "value" : "iSCSI Target"
+  }, {
+    "name" : "epic",
+    "value" : "Cluster iSCSI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "13976@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testClass",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteIscsiTarget"
+  }, {
+    "name" : "suite",
+    "value" : "ISCSI"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#04a5157a-13f2-4328-954b-d7612b8e1604",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae782d7c576d0968.json",
+  "parameterValues" : [ ]
+}

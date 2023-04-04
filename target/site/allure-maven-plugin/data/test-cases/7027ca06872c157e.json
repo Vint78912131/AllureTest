@@ -1,0 +1,104 @@
+{
+  "uid" : "7027ca06872c157e",
+  "name" : "Get Task info by id",
+  "fullName" : "Tasks.getTaskInfoBy",
+  "historyId" : "76a734fd40eaea43619e05127c5b7d90",
+  "time" : {
+    "start" : 1680602086779,
+    "stop" : 1680602087065,
+    "duration" : 286
+  },
+  "description" : "Get Task info by id",
+  "descriptionHtml" : "<p>Get Task info by id</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get Task info by id",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить информацию о серверной задаче по id.",
+      "time" : {
+        "start" : 1680602086946,
+        "stop" : 1680602087065,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3dafab85d4e3ebb",
+        "name" : "Response",
+        "source" : "d3dafab85d4e3ebb.txt",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Tasks"
+  }, {
+    "name" : "story",
+    "value" : "Tasks"
+  }, {
+    "name" : "feature",
+    "value" : "Get Task info by id"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "22276@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tasks"
+  }, {
+    "name" : "testClass",
+    "value" : "Tasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "getTaskInfoBy"
+  }, {
+    "name" : "suite",
+    "value" : "Tasks"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#dbb04b36-3f63-46b5-8e28-ad608fd0345c",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7027ca06872c157e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,6 @@
+{
+    "username": "newISCSIUser",
+    "description": null,
+    "is_enabled": true,
+    "cluster_id": 3
+}

@@ -1,0 +1,104 @@
+{
+  "uid" : "d8f1041f55d2c7ce",
+  "name" : "Start chunks server",
+  "fullName" : "ChunkServers.startChunksServer",
+  "historyId" : "a8402894c27daf663a228f9445f95e8d",
+  "time" : {
+    "start" : 1680603257450,
+    "stop" : 1680603259303,
+    "duration" : 1853
+  },
+  "description" : "Start chunks server",
+  "descriptionHtml" : "<p>Start chunks server</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Start chunks server",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запустить сервер фрагментов кластера.",
+      "time" : {
+        "start" : 1680603258962,
+        "stop" : 1680603259298,
+        "duration" : 336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e40a9c1ee258aa3e",
+        "name" : "Response",
+        "source" : "e40a9c1ee258aa3e.txt",
+        "type" : "application/json",
+        "size" : 240
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Cluster"
+  }, {
+    "name" : "story",
+    "value" : "Chunk Servers"
+  }, {
+    "name" : "feature",
+    "value" : "Start chunks server"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "30704@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ChunkServers"
+  }, {
+    "name" : "testClass",
+    "value" : "ChunkServers"
+  }, {
+    "name" : "testMethod",
+    "value" : "startChunksServer"
+  }, {
+    "name" : "suite",
+    "value" : "ChunkServers"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#b68962f3-ddc0-4aa6-b8ea-9f8b4cfe31f4",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8f1041f55d2c7ce.json",
+  "parameterValues" : [ ]
+}

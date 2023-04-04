@@ -1,0 +1,11 @@
+{
+    "external_id": null,
+    "is_group": false,
+    "roles": null,
+    "description": null,
+    "is_enabled": true,
+    "is_superuser": true,
+    "id": 1,
+    "name": "root",
+    "external_provider": null
+}

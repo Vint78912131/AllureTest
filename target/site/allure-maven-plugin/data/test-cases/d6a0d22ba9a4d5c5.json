@@ -1,0 +1,104 @@
+{
+  "uid" : "d6a0d22ba9a4d5c5",
+  "name" : "Get iSCSI target Info by iqn",
+  "fullName" : "ISCSI.getIscsiTargetInfo",
+  "historyId" : "12b1550358c5a9e93bf2276a539df156",
+  "time" : {
+    "start" : 1680604802530,
+    "stop" : 1680604804301,
+    "duration" : 1771
+  },
+  "description" : "Get iSCSI target Info",
+  "descriptionHtml" : "<p>Get iSCSI target Info</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get iSCSI target Info",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить информацию о цели iSCSI по iqn.",
+      "time" : {
+        "start" : 1680604804037,
+        "stop" : 1680604804298,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdc5be2832108dc5",
+        "name" : "Response",
+        "source" : "cdc5be2832108dc5.txt",
+        "type" : "application/json",
+        "size" : 1043
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Cluster iSCSI"
+  }, {
+    "name" : "story",
+    "value" : "iSCSI Target"
+  }, {
+    "name" : "feature",
+    "value" : "Get iSCSI target Info by iqn"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "13976@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testClass",
+    "value" : "ISCSI"
+  }, {
+    "name" : "testMethod",
+    "value" : "getIscsiTargetInfo"
+  }, {
+    "name" : "suite",
+    "value" : "ISCSI"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#af052155-765b-424e-93b9-0441fa04fac2",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6a0d22ba9a4d5c5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+    "error": {
+        "http_code": 500,
+        "message": "Cannot perform operation because all nodes are unavailable or releasing now",
+        "traceback": [
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/decorators.py\", line 28, in wrapper\n    return func(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/licenese/virtuozzo.py\", line 57, in post\n    ob = ClusterPresentation.update_license(cluster_id, **payload)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/cluster/presentation.py\", line 589, in update_license\n    resp = LicenseClient.update(cluster_id, server)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/cluster/presentation.py\", line 88, in update\n    lambda cli: cli.post(data)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/utils/misc.py\", line 303, in send_to_any_node\n    query=query,\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/utils/misc.py\", line 184, in request_to_any_agent\n    exceptions=exceptions\n",
+            "backend.business.models.exceptions.UnavailableError: Cannot perform operation because all nodes are unavailable or releasing now\n"
+        ],
+        "subsytem": "presentation",
+        "errors": [
+            {
+                "traceback": [
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/__init__.py\", line 102, in update\n    pcs.update_license(server, no_check)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1286, in update_license\n    raise PcsError(err or 'Cannot update license')\n",
+                    "agent.contrib.pcs.exceptions.PcsError: 2023-04-04 10:48:38.293 No license body in response\nOperation failed\n\n",
+                    "\nDuring handling of the above exception, another exception occurred:\n\n",
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/license/endpoints.py\", line 66, in post\n    lic = License.update(cluster_name, server, no_check)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/__init__.py\", line 104, in update\n    raise cls.Error(str(err))\n",
+                    "agent.business.models.license.Error: 2023-04-04 10:48:38.293 No license body in response\nOperation failed\n\n"
+                ]
+            },
+            {
+                "traceback": [
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/__init__.py\", line 102, in update\n    pcs.update_license(server, no_check)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1286, in update_license\n    raise PcsError(err or 'Cannot update license')\n",
+                    "agent.contrib.pcs.exceptions.PcsError: 2023-04-04 10:48:38.335 No license body in response\nOperation failed\n\n",
+                    "\nDuring handling of the above exception, another exception occurred:\n\n",
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/license/endpoints.py\", line 66, in post\n    lic = License.update(cluster_name, server, no_check)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/__init__.py\", line 104, in update\n    raise cls.Error(str(err))\n",
+                    "agent.business.models.license.Error: 2023-04-04 10:48:38.335 No license body in response\nOperation failed\n\n"
+                ]
+            },
+            {
+                "traceback": [
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/__init__.py\", line 102, in update\n    pcs.update_license(server, no_check)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1286, in update_license\n    raise PcsError(err or 'Cannot update license')\n",
+                    "agent.contrib.pcs.exceptions.PcsError: 2023-04-04 10:48:38.377 No license body in response\nOperation failed\n\n",
+                    "\nDuring handling of the above exception, another exception occurred:\n\n",
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/license/endpoints.py\", line 66, in post\n    lic = License.update(cluster_name, server, no_check)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/__init__.py\", line 104, in update\n    raise cls.Error(str(err))\n",
+                    "agent.business.models.license.Error: 2023-04-04 10:48:38.377 No license body in response\nOperation failed\n\n"
+                ]
+            }
+        ]
+    },
+    "message": "Cannot perform operation because all nodes are unavailable or releasing now (Deprecated field)"
+}

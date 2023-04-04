@@ -1,0 +1,911 @@
+[ {
+  "uid" : "a7b2e4231367ce36",
+  "name" : "Get node network list",
+  "time" : {
+    "start" : 1680606079666,
+    "stop" : 1680606080022,
+    "duration" : 356
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "df140ac0035399e3",
+  "name" : "Get iSCSI LUN detail info",
+  "time" : {
+    "start" : 1680604808193,
+    "stop" : 1680604808873,
+    "duration" : 680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4486ccca324132d4",
+  "name" : "Check Software update status",
+  "time" : {
+    "start" : 1680601424896,
+    "stop" : 1680601425168,
+    "duration" : 272
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "bc78d158b538f44b",
+  "name" : "Get node network detail",
+  "time" : {
+    "start" : 1680606081496,
+    "stop" : 1680606081731,
+    "duration" : 235
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "ec1ea5aec58ff3e5",
+  "name" : "Get Object Store cluster statistics",
+  "time" : {
+    "start" : 1680601927527,
+    "stop" : 1680601927885,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "eda9ea0191ece1d1",
+  "name" : "Get clusters info",
+  "time" : {
+    "start" : 1680603511998,
+    "stop" : 1680603512281,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "987d42f72a8fd483",
+  "name" : "Register new Node in cluster",
+  "time" : {
+    "start" : 1680606081232,
+    "stop" : 1680606081493,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a5f6b5102245d859",
+  "name" : "Add new iSCSI target",
+  "time" : {
+    "start" : 1680604813708,
+    "stop" : 1680604813708,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "1f533e29b6345004",
+  "name" : "Assign nodes to ostor cluster",
+  "time" : {
+    "start" : 1680599166033,
+    "stop" : 1680599166277,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "3f990a569ac601ae",
+  "name" : "Get Node disks info",
+  "time" : {
+    "start" : 1680606080026,
+    "stop" : 1680606080281,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "fbef06ce69946b20",
+  "name" : "Delete Storage user by id",
+  "time" : {
+    "start" : 1680602651526,
+    "stop" : 1680602651793,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d8f1041f55d2c7ce",
+  "name" : "Start chunks server",
+  "time" : {
+    "start" : 1680603257450,
+    "stop" : 1680603259303,
+    "duration" : 1853
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "e2e9997a0f6e722b",
+  "name" : "Add new iSCSI LUN",
+  "time" : {
+    "start" : 1680604804980,
+    "stop" : 1680604805719,
+    "duration" : 739
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "441a41f04536ba79",
+  "name" : "Release nodes from ostor cluster sync",
+  "time" : {
+    "start" : 1680599119381,
+    "stop" : 1680599164877,
+    "duration" : 45496
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d1688dc3f4c02882",
+  "name" : "Get iSCSI user info",
+  "time" : {
+    "start" : 1680604813459,
+    "stop" : 1680604813702,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "922e9d66b21d57f8",
+  "name" : "Get all S3 buckets info",
+  "time" : {
+    "start" : 1680599167913,
+    "stop" : 1680599168178,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "17473aef9a2cb060",
+  "name" : "Get Software update status",
+  "time" : {
+    "start" : 1680601422984,
+    "stop" : 1680601424833,
+    "duration" : 1849
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "344313d26ddb6806",
+  "name" : "Get cluster license info",
+  "time" : {
+    "start" : 1680605316310,
+    "stop" : 1680605318080,
+    "duration" : 1770
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "e391cefaec0385e3",
+  "name" : "LogOut Storage",
+  "time" : {
+    "start" : 1680602944077,
+    "stop" : 1680602944169,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da31f798f372013",
+  "name" : "Get cluster license",
+  "time" : {
+    "start" : 1680605319706,
+    "stop" : 1680605320124,
+    "duration" : 418
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "9e18b8ca9ea4a9b",
+  "name" : "Start task which create new mds",
+  "time" : {
+    "start" : 1680605578704,
+    "stop" : 1680605578955,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "798f75bfcb20857f",
+  "name" : "Start iSCSI target",
+  "time" : {
+    "start" : 1680604805988,
+    "stop" : 1680604808189,
+    "duration" : 2201
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "cd137ada16fcf2f6",
+  "name" : "LogIn Storage Positive",
+  "time" : {
+    "start" : 1680602943903,
+    "stop" : 1680602944074,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "563ef3c6c8c33062",
+  "name" : "Create new Storage user",
+  "time" : {
+    "start" : 1680602649047,
+    "stop" : 1680602650844,
+    "duration" : 1797
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "415f36c96ae9c499",
+  "name" : "Get chunks server list",
+  "time" : {
+    "start" : 1680603259633,
+    "stop" : 1680603259877,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "4699f95d5d495e70",
+  "name" : "Create ostor cluster sync",
+  "time" : {
+    "start" : 1680599167097,
+    "stop" : 1680599167365,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "56ad23491a7300a9",
+  "name" : "Create ostor cluster PUT",
+  "time" : {
+    "start" : 1680599168184,
+    "stop" : 1680599168435,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "cc32d8285b71e40c",
+  "name" : "Get cluster statistics",
+  "time" : {
+    "start" : 1680601926434,
+    "stop" : 1680601926713,
+    "duration" : 279
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f29c442d4a3681fd",
+  "name" : "Provides info about single mds",
+  "time" : {
+    "start" : 1680605576627,
+    "stop" : 1680605578429,
+    "duration" : 1802
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "25f3e6d4c6fccb5b",
+  "name" : "Get iSCSI LUN info by lunno",
+  "time" : {
+    "start" : 1680604804312,
+    "stop" : 1680604804976,
+    "duration" : 664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45ec41e79512d80",
+  "name" : "Get chunks server work info",
+  "time" : {
+    "start" : 1680603259356,
+    "stop" : 1680603259630,
+    "duration" : 274
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "75b6561b3d01df06",
+  "name" : "Get iSCSI users info",
+  "time" : {
+    "start" : 1680604816095,
+    "stop" : 1680604816345,
+    "duration" : 250
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c090f78eaaae70c7",
+  "name" : "Delete iSCSI LUN",
+  "time" : {
+    "start" : 1680604808876,
+    "stop" : 1680604808876,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e586f63e0937c2e6",
+  "name" : "Get cluster events by params",
+  "time" : {
+    "start" : 1680603720845,
+    "stop" : 1680603722611,
+    "duration" : 1766
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d77fb352d45e3d17",
+  "name" : "Provides info about all backend server endpoints",
+  "time" : {
+    "start" : 1680600944660,
+    "stop" : 1680600946436,
+    "duration" : 1776
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "bac5630a7531c601",
+  "name" : "Get list of all clusters with state",
+  "time" : {
+    "start" : 1680606207186,
+    "stop" : 1680606208911,
+    "duration" : 1725
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "fe332b4ab7c06bca",
+  "name" : "Get Storage users info",
+  "time" : {
+    "start" : 1680602651797,
+    "stop" : 1680602652043,
+    "duration" : 246
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "ae782d7c576d0968",
+  "name" : "Delete iSCSI target",
+  "time" : {
+    "start" : 1680604813706,
+    "stop" : 1680604813706,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "64cbf8a9f753677c",
+  "name" : "Get iSCSI initiators list",
+  "time" : {
+    "start" : 1680604812950,
+    "stop" : 1680604813198,
+    "duration" : 248
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "71dbc6dc4553651d",
+  "name" : "Get disk statistics",
+  "time" : {
+    "start" : 1680601924590,
+    "stop" : 1680601926376,
+    "duration" : 1786
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "fc535fee575750c2",
+  "name" : "Change S3 user info",
+  "time" : {
+    "start" : 1680599166825,
+    "stop" : 1680599167092,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "13a60a3a27b4ee04",
+  "name" : "Get Storage user info by id",
+  "time" : {
+    "start" : 1680602650913,
+    "stop" : 1680602651216,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "50a03ff9d936bc50",
+  "name" : "Object store overview details",
+  "time" : {
+    "start" : 1680599167637,
+    "stop" : 1680599167896,
+    "duration" : 259
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "4d5ca5fa83ab2489",
+  "name" : "Get cluster password by cluster_id",
+  "time" : {
+    "start" : 1680603509901,
+    "stop" : 1680603511668,
+    "duration" : 1767
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c5147a52f98fd37c",
+  "name" : "Get services info",
+  "time" : {
+    "start" : 1680601137360,
+    "stop" : 1680601139461,
+    "duration" : 2101
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1e14e924959eed15",
+  "name" : "Get Nodes list",
+  "time" : {
+    "start" : 1680606080673,
+    "stop" : 1680606081228,
+    "duration" : 555
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "7027ca06872c157e",
+  "name" : "Get Task info by id",
+  "time" : {
+    "start" : 1680602086779,
+    "stop" : 1680602087065,
+    "duration" : 286
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "55475fcdef3e1c0a",
+  "name" : "Provides info about all mds servers in cluster",
+  "time" : {
+    "start" : 1680605578442,
+    "stop" : 1680605578701,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b30e0767975a6063",
+  "name" : "Delete iSCSI user",
+  "time" : {
+    "start" : 1680604810770,
+    "stop" : 1680604812655,
+    "duration" : 1885
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "46ae20630ea37845",
+  "name" : "LogIn Storage Negative",
+  "time" : {
+    "start" : 1680602942201,
+    "stop" : 1680602943842,
+    "duration" : 1641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a94f0384beae43a4",
+  "name" : "Create ostor cluster",
+  "time" : {
+    "start" : 1680599164882,
+    "stop" : 1680599165146,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "5060c287be2a4280",
+  "name" : "Get S3 users info",
+  "time" : {
+    "start" : 1680599116786,
+    "stop" : 1680599118629,
+    "duration" : 1843
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "cc611918735ba4fc",
+  "name" : "Start Software update",
+  "time" : {
+    "start" : 1680601425172,
+    "stop" : 1680601425404,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "e78c63b3b48ec5c5",
+  "name" : "Get all iSCSI targets Info",
+  "time" : {
+    "start" : 1680604813202,
+    "stop" : 1680604813456,
+    "duration" : 254
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "417d1e2f05d01392",
+  "name" : "Assign nodes to ostor cluster sync",
+  "time" : {
+    "start" : 1680599119082,
+    "stop" : 1680599119377,
+    "duration" : 295
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "291a7b880dbd0037",
+  "name" : "Get cluster info by cluster_id",
+  "time" : {
+    "start" : 1680603511727,
+    "stop" : 1680603511995,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b9000c929993b664",
+  "name" : "Release nodes from ostor cluster",
+  "time" : {
+    "start" : 1680599165722,
+    "stop" : 1680599166023,
+    "duration" : 301
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "50bd70c220397aa",
+  "name" : "Get detail info about node services and disks",
+  "time" : {
+    "start" : 1680606081734,
+    "stop" : 1680606081977,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b8f70fd686cbece1",
+  "name" : "Get default ip address for MDS",
+  "time" : {
+    "start" : 1680606075854,
+    "stop" : 1680606079611,
+    "duration" : 3757
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "be7e128d49e95794",
+  "name" : "Start task which test disk performance",
+  "time" : {
+    "start" : 1680600935969,
+    "stop" : 1680600937718,
+    "duration" : 1749
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6000c1c4922b4b11",
+  "name" : "Cluster overview details",
+  "time" : {
+    "start" : 1680606208967,
+    "stop" : 1680606209250,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "bfd68ba08815086e",
+  "name" : "Get cluster license info",
+  "time" : {
+    "start" : 1680605318836,
+    "stop" : 1680605319087,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "50f4df9320bf9bcc",
+  "name" : "Check cluster license",
+  "time" : {
+    "start" : 1680605319439,
+    "stop" : 1680605319702,
+    "duration" : 263
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "fa2379aed98c265c",
+  "name" : "Change iSCSI target",
+  "time" : {
+    "start" : 1680604802457,
+    "stop" : 1680604802457,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "54bec68c9feb7ee3",
+  "name" : "Change Storage user info",
+  "time" : {
+    "start" : 1680602651219,
+    "stop" : 1680602651522,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "db1e583dcdb91268",
+  "name" : "Add new iSCSI user",
+  "time" : {
+    "start" : 1680604813710,
+    "stop" : 1680604816092,
+    "duration" : 2382
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d6a0d22ba9a4d5c5",
+  "name" : "Get iSCSI target Info by iqn",
+  "time" : {
+    "start" : 1680604802530,
+    "stop" : 1680604804301,
+    "duration" : 1771
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "87f99db5e39c8ea7",
+  "name" : "Delete chunks server",
+  "time" : {
+    "start" : 1680603259884,
+    "stop" : 1680603259884,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "ca309dbf1e39bbbc",
+  "name" : "Get list of all nodes in cluster",
+  "time" : {
+    "start" : 1680606081981,
+    "stop" : 1680606082242,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b3146b26890aaa78",
+  "name" : "Remove mds from cluster",
+  "time" : {
+    "start" : 1680605576557,
+    "stop" : 1680605576558,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "a7dd837fecb3c26d",
+  "name" : "Get cluster events",
+  "time" : {
+    "start" : 1680603722663,
+    "stop" : 1680603722958,
+    "duration" : 295
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "ba90c468b30cbf17",
+  "name" : "Change the bucket registration in Notary Provider",
+  "time" : {
+    "start" : 1680599166548,
+    "stop" : 1680599166810,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a69c02b6d384b282",
+  "name" : "Update cluster license",
+  "time" : {
+    "start" : 1680605318133,
+    "stop" : 1680605318584,
+    "duration" : 451
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "27227e7086a23e03",
+  "name" : "Register new cluster license",
+  "time" : {
+    "start" : 1680605319092,
+    "stop" : 1680605319436,
+    "duration" : 344
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c710b9010a36717b",
+  "name" : "Get Chunks Server statistics",
+  "time" : {
+    "start" : 1680601927252,
+    "stop" : 1680601927523,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b0c074d789f34ba8",
+  "name" : "Get iSCSI LUNs info",
+  "time" : {
+    "start" : 1680604805729,
+    "stop" : 1680604805984,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae51451dd0a65a93",
+  "name" : "Add new S3 user",
+  "time" : {
+    "start" : 1680599165152,
+    "stop" : 1680599165450,
+    "duration" : 298
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d04bac4fa08ac6e3",
+  "name" : "Delete cluster by cluster_id",
+  "time" : {
+    "start" : 1680603512286,
+    "stop" : 1680603512286,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "ca9af5e1eb815bb7",
+  "name" : "Get Metadata Server statistics",
+  "time" : {
+    "start" : 1680601927888,
+    "stop" : 1680601928156,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d8b80fe453b50c64",
+  "name" : "Create ostor cluster PUT sync",
+  "time" : {
+    "start" : 1680599167368,
+    "stop" : 1680599167622,
+    "duration" : 254
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "cee1dec540d8406e",
+  "name" : "Get network statistics",
+  "time" : {
+    "start" : 1680601926718,
+    "stop" : 1680601926972,
+    "duration" : 254
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "74630189b5412cbc",
+  "name" : "Get all S3 user info",
+  "time" : {
+    "start" : 1680599166280,
+    "stop" : 1680599166544,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "965f4e78058b0b91",
+  "name" : "Register new Cluster",
+  "time" : {
+    "start" : 1680603512289,
+    "stop" : 1680603512289,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "232868bd47c015e4",
+  "name" : "Get Node detail info",
+  "time" : {
+    "start" : 1680606080284,
+    "stop" : 1680606080670,
+    "duration" : 386
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a95d8d30b5d4e0b5",
+  "name" : "Get node statistics",
+  "time" : {
+    "start" : 1680601926976,
+    "stop" : 1680601927249,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "93d3fba0c1bd7544",
+  "name" : "Get ostor cluster detail",
+  "time" : {
+    "start" : 1680599118687,
+    "stop" : 1680599119076,
+    "duration" : 389
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "90f37c773b233d1e",
+  "name" : "Activate license keys",
+  "time" : {
+    "start" : 1680605318586,
+    "stop" : 1680605318832,
+    "duration" : 246
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6151a1a1cd1a3bf",
+  "name" : "Get Tasks info list",
+  "time" : {
+    "start" : 1680602084909,
+    "stop" : 1680602086713,
+    "duration" : 1804
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "7adcfe482ee70e88",
+  "name" : "Delete S3 user by user_id",
+  "time" : {
+    "start" : 1680599165466,
+    "stop" : 1680599165719,
+    "duration" : 253
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "dfb9ee6d288a2af7",
+  "name" : "Stop iSCSI target",
+  "time" : {
+    "start" : 1680604808878,
+    "stop" : 1680604810767,
+    "duration" : 1889
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "283fef3bf4564921",
+  "name" : "Change iSCSI user info",
+  "time" : {
+    "start" : 1680604812659,
+    "stop" : 1680604812934,
+    "duration" : 275
+  },
+  "status" : "failed",
+  "severity" : "minor"
+} ]

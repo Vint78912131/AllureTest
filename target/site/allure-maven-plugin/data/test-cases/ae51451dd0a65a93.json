@@ -1,0 +1,104 @@
+{
+  "uid" : "ae51451dd0a65a93",
+  "name" : "Add new S3 user",
+  "fullName" : "S3.setNewOstoreUser",
+  "historyId" : "3feab4a3ac4675a6b1993137476be5ae",
+  "time" : {
+    "start" : 1680599165152,
+    "stop" : 1680599165450,
+    "duration" : 298
+  },
+  "description" : "Add new S3 user",
+  "descriptionHtml" : "<p>Add new S3 user</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Add new S3 user",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить нового пользователя в кластер S3.",
+      "time" : {
+        "start" : 1680599165309,
+        "stop" : 1680599165450,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b74f9cb277a809a5",
+        "name" : "Response",
+        "source" : "b74f9cb277a809a5.txt",
+        "type" : "application/json",
+        "size" : 3623
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "S3 S3 users list"
+  }, {
+    "name" : "feature",
+    "value" : "Add new S3 user"
+  }, {
+    "name" : "story",
+    "value" : "S3 users list"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "33720@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "S3"
+  }, {
+    "name" : "testClass",
+    "value" : "S3"
+  }, {
+    "name" : "testMethod",
+    "value" : "setNewOstoreUser"
+  }, {
+    "name" : "suite",
+    "value" : "S3"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#dd59bc0b-611b-483e-8bf9-f2285caeab2a",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae51451dd0a65a93.json",
+  "parameterValues" : [ ]
+}

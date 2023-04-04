@@ -1,0 +1,104 @@
+{
+  "uid" : "90f37c773b233d1e",
+  "name" : "Activate license keys",
+  "fullName" : "License.setClusterLicense",
+  "historyId" : "5dc332e8a3c6c2a6da82c70fb47362df",
+  "time" : {
+    "start" : 1680605318586,
+    "stop" : 1680605318832,
+    "duration" : 246
+  },
+  "description" : "Activate license keys",
+  "descriptionHtml" : "<p>Activate license keys</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Activate license keys",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Активировать лицензию кластера.",
+      "time" : {
+        "start" : 1680605318729,
+        "stop" : 1680605318832,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ddc5522aea35ac36",
+        "name" : "Response",
+        "source" : "ddc5522aea35ac36.txt",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Activate license keys"
+  }, {
+    "name" : "epic",
+    "value" : "License"
+  }, {
+    "name" : "story",
+    "value" : "License"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "27452@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "License"
+  }, {
+    "name" : "testClass",
+    "value" : "License"
+  }, {
+    "name" : "testMethod",
+    "value" : "setClusterLicense"
+  }, {
+    "name" : "suite",
+    "value" : "License"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#71af9a41-4458-4b75-8df6-09f0dde4e72e",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90f37c773b233d1e.json",
+  "parameterValues" : [ ]
+}

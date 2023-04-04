@@ -1,0 +1,59 @@
+{
+    "chunks": {
+        "unique": 0,
+        "standby": null,
+        "void": 0,
+        "pending": 0,
+        "degraded": 0,
+        "urgent": 0,
+        "offline": 0,
+        "total": 16,
+        "replicating": 0,
+        "overcommitted": 0,
+        "blocked": 0,
+        "deleting": 0,
+        "healthy": 16
+    },
+    "tiers": [
+        {
+            "phys_space": {
+                "total": 202463907840,
+                "free": 198708879360,
+                "used": 3755028480
+            },
+            "id": 0
+        }
+    ],
+    "status": "healthy",
+    "fs_stat": {
+        "chunk_maps": 16,
+        "files": 97,
+        "chunk_nodes": 48,
+        "inodes": 97,
+        "used_size": 37221218,
+        "file_maps": 16
+    },
+    "resistance": {
+        "total": 3,
+        "to_lose": 0
+    },
+    "logic_space": {
+        "total": 1099511627776,
+        "free": 1099474406558,
+        "used": 37221218
+    },
+    "id": 3,
+    "name": "newCluster",
+    "license": {
+        "capacity": 1099511627776,
+        "used_size": 37221218,
+        "status": 0,
+        "expiration_ts": null,
+        "keynumber": null
+    },
+    "repl": {
+        "eta": null,
+        "reads": 0,
+        "writes": 0
+    }
+}

@@ -1,0 +1,104 @@
+{
+  "uid" : "56ad23491a7300a9",
+  "name" : "Create ostor cluster PUT",
+  "fullName" : "S3.setNewOstoreClusterPut",
+  "historyId" : "9a19da5491582bd122d4c61bb3bb72",
+  "time" : {
+    "start" : 1680599168184,
+    "stop" : 1680599168435,
+    "duration" : 251
+  },
+  "description" : "Create new ostor cluster PUT",
+  "descriptionHtml" : "<p>Create new ostor cluster PUT</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Create new ostor cluster PUT",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать новый кластер S3 PUT.",
+      "time" : {
+        "start" : 1680599168323,
+        "stop" : 1680599168435,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7bb6fcafa9f2c5cf",
+        "name" : "Response",
+        "source" : "7bb6fcafa9f2c5cf.txt",
+        "type" : "application/json",
+        "size" : 1156
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create ostor cluster PUT"
+  }, {
+    "name" : "story",
+    "value" : "Ostor Cluster"
+  }, {
+    "name" : "epic",
+    "value" : "S3 Ostor Cluster"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT1JL7J"
+  }, {
+    "name" : "thread",
+    "value" : "33720@DESKTOP-GT1JL7J.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "S3"
+  }, {
+    "name" : "testClass",
+    "value" : "S3"
+  }, {
+    "name" : "testMethod",
+    "value" : "setNewOstoreClusterPut"
+  }, {
+    "name" : "suite",
+    "value" : "S3"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://documenter.getpostman.com/view/607407/UVRGFjMf#a50470e3-53c5-415c-9348-949d22e7a7af",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56ad23491a7300a9.json",
+  "parameterValues" : [ ]
+}

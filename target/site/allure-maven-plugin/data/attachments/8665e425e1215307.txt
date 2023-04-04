@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "username": "root",
+            "description": null,
+            "is_enabled": true,
+            "cluster_id": 3
+        },
+        {
+            "username": "newISCSIUser",
+            "description": null,
+            "is_enabled": true,
+            "cluster_id": 3
+        }
+    ]
+}

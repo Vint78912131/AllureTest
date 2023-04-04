@@ -1,0 +1,108 @@
+{
+    "error": {
+        "http_code": 500,
+        "message": "Cannot perform operation because all nodes are unavailable or releasing now",
+        "traceback": [
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/decorators.py\", line 28, in wrapper\n    return func(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/licenese/acronis.py\", line 21, in get\n    ob = services.GetLicenseInfo().do(cluster_id)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/logg.py\", line 127, in wrapper\n    return func(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/license/services.py\", line 69, in do\n    resp = LicenseClient().get(cluster)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/license/services.py\", line 21, in get\n    lambda cli: cli.get()\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/utils/misc.py\", line 303, in send_to_any_node\n    query=query,\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/utils/misc.py\", line 184, in request_to_any_agent\n    exceptions=exceptions\n",
+            "backend.business.models.exceptions.UnavailableError: Cannot perform operation because all nodes are unavailable or releasing now\n"
+        ],
+        "subsytem": "presentation",
+        "errors": [
+            {
+                "traceback": [
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1396, in _parse_acronis_license\n    xml = lxml.etree.XML(raw)\n",
+                    "  File \"lxml.etree.pyx\", line 3083, in lxml.etree.XML (src/lxml/lxml.etree.c:70338)\n",
+                    "  File \"parser.pxi\", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106403)\n",
+                    "  File \"parser.pxi\", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105106)\n",
+                    "  File \"parser.pxi\", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99534)\n",
+                    "  File \"parser.pxi\", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94350)\n",
+                    "  File \"parser.pxi\", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95786)\n",
+                    "  File \"parser.pxi\", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:94853)\n",
+                    "  File \"<string>\", line None\n",
+                    "lxml.etree.XMLSyntaxError: Start tag expected, '<' not found, line 1, column 1\n",
+                    "\nDuring handling of the above exception, another exception occurred:\n\n",
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/acronis_licence.py\", line 30, in get\n    data = pcs.view_acronis_license()\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1347, in view_acronis_license\n    rv = self._parse_acronis_license(out)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1406, in _parse_acronis_license\n    raise ParseAcronisLicenseError(message)\n",
+                    "agent.contrib.pcs.exceptions.ParseAcronisLicenseError: Error parsing license: Start tag expected, '<' not found, line 1, column 1\n",
+                    "\nDuring handling of the above exception, another exception occurred:\n\n",
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/license/decorators.py\", line 14, in wrapper\n    return f(*args, **kwargs)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask-0.10.1-py3.4.egg/flask/views.py\", line 84, in view\n    return self.dispatch_request(*args, **kwargs)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask_RESTful-0.3.4-py3.4.egg/flask_restful/__init__.py\", line 581, in dispatch_request\n    resp = meth(*args, **kwargs)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/license/acronis_license.py\", line 18, in get\n    lic = AcronisLicense.get(cluster_name)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/acronis_licence.py\", line 33, in get\n    raise GetLicenseError(str(err))\n",
+                    "agent.business.models.license.exceptions.GetLicenseError: Error parsing license: Start tag expected, '<' not found, line 1, column 1\n"
+                ]
+            },
+            {
+                "traceback": [
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1396, in _parse_acronis_license\n    xml = lxml.etree.XML(raw)\n",
+                    "  File \"lxml.etree.pyx\", line 3083, in lxml.etree.XML (src/lxml/lxml.etree.c:70338)\n",
+                    "  File \"parser.pxi\", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106403)\n",
+                    "  File \"parser.pxi\", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105106)\n",
+                    "  File \"parser.pxi\", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99534)\n",
+                    "  File \"parser.pxi\", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94350)\n",
+                    "  File \"parser.pxi\", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95786)\n",
+                    "  File \"parser.pxi\", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:94853)\n",
+                    "  File \"<string>\", line None\n",
+                    "lxml.etree.XMLSyntaxError: Start tag expected, '<' not found, line 1, column 1\n",
+                    "\nDuring handling of the above exception, another exception occurred:\n\n",
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/acronis_licence.py\", line 30, in get\n    data = pcs.view_acronis_license()\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1347, in view_acronis_license\n    rv = self._parse_acronis_license(out)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1406, in _parse_acronis_license\n    raise ParseAcronisLicenseError(message)\n",
+                    "agent.contrib.pcs.exceptions.ParseAcronisLicenseError: Error parsing license: Start tag expected, '<' not found, line 1, column 1\n",
+                    "\nDuring handling of the above exception, another exception occurred:\n\n",
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/license/decorators.py\", line 14, in wrapper\n    return f(*args, **kwargs)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask-0.10.1-py3.4.egg/flask/views.py\", line 84, in view\n    return self.dispatch_request(*args, **kwargs)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask_RESTful-0.3.4-py3.4.egg/flask_restful/__init__.py\", line 581, in dispatch_request\n    resp = meth(*args, **kwargs)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/license/acronis_license.py\", line 18, in get\n    lic = AcronisLicense.get(cluster_name)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/acronis_licence.py\", line 33, in get\n    raise GetLicenseError(str(err))\n",
+                    "agent.business.models.license.exceptions.GetLicenseError: Error parsing license: Start tag expected, '<' not found, line 1, column 1\n"
+                ]
+            },
+            {
+                "traceback": [
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1396, in _parse_acronis_license\n    xml = lxml.etree.XML(raw)\n",
+                    "  File \"lxml.etree.pyx\", line 3083, in lxml.etree.XML (src/lxml/lxml.etree.c:70338)\n",
+                    "  File \"parser.pxi\", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106403)\n",
+                    "  File \"parser.pxi\", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105106)\n",
+                    "  File \"parser.pxi\", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99534)\n",
+                    "  File \"parser.pxi\", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94350)\n",
+                    "  File \"parser.pxi\", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95786)\n",
+                    "  File \"parser.pxi\", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:94853)\n",
+                    "  File \"<string>\", line None\n",
+                    "lxml.etree.XMLSyntaxError: Start tag expected, '<' not found, line 1, column 1\n",
+                    "\nDuring handling of the above exception, another exception occurred:\n\n",
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/acronis_licence.py\", line 30, in get\n    data = pcs.view_acronis_license()\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1347, in view_acronis_license\n    rv = self._parse_acronis_license(out)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/contrib/pcs/__init__.py\", line 1406, in _parse_acronis_license\n    raise ParseAcronisLicenseError(message)\n",
+                    "agent.contrib.pcs.exceptions.ParseAcronisLicenseError: Error parsing license: Start tag expected, '<' not found, line 1, column 1\n",
+                    "\nDuring handling of the above exception, another exception occurred:\n\n",
+                    "Traceback (most recent call last):\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/license/decorators.py\", line 14, in wrapper\n    return f(*args, **kwargs)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask-0.10.1-py3.4.egg/flask/views.py\", line 84, in view\n    return self.dispatch_request(*args, **kwargs)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/Flask_RESTful-0.3.4-py3.4.egg/flask_restful/__init__.py\", line 581, in dispatch_request\n    resp = meth(*args, **kwargs)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/presentation/api/license/acronis_license.py\", line 18, in get\n    lic = AcronisLicense.get(cluster_name)\n",
+                    "  File \"/usr/libexec/vstorage-ui-agent/venv/lib64/python3.4/site-packages/vstorage_ui_agent-1.3.177-py3.4.egg/agent/business/models/license/acronis_licence.py\", line 33, in get\n    raise GetLicenseError(str(err))\n",
+                    "agent.business.models.license.exceptions.GetLicenseError: Error parsing license: Start tag expected, '<' not found, line 1, column 1\n"
+                ]
+            }
+        ]
+    },
+    "message": "Cannot perform operation because all nodes are unavailable or releasing now (Deprecated field)"
+}

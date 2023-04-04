@@ -1,0 +1,23 @@
+{
+    "is_in_ha": false,
+    "is_online": true,
+    "host": "192.168.12.45",
+    "id": "059ac5a5-0724-4d66-a09b-a9163ba00859",
+    "is_primary": false,
+    "is_assigned": true,
+    "cpu_cores": 8,
+    "is_virt": false,
+    "roles": {
+        "mdses": {
+            "being_released": 0,
+            "avail": 1
+        },
+        "cses": {
+            "active": 1,
+            "being_released": 0
+        }
+    },
+    "tasks": null,
+    "mem_total": 8199270400,
+    "ipaddr": "192.168.12.45"
+}

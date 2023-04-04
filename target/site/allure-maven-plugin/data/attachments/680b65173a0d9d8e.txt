@@ -1,0 +1,30 @@
+{
+    "error": {
+        "http_code": 400,
+        "message": "2023-04-04 10:48:39.239 Can't decode license: Wrong license\nOperation failed\n",
+        "traceback": [
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/utils/misc.py\", line 135, in request_to_any_agent\n    rv = function(client)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/cluster/presentation.py\", line 72, in <lambda>\n    'key': key,\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/rest_client.py\", line 237, in post\n    data=data and json.dumps(data) or {}\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/rest_client.py\", line 213, in _request\n    traceback=traceback,\n",
+            "backend.business.rest_client.UnexpectedStatus: 2023-04-04 10:48:39.239 Can't decode license: Wrong license\nOperation failed\n\n",
+            "\nDuring handling of the above exception, another exception occurred:\n\n",
+            "Traceback (most recent call last):\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/decorators.py\", line 28, in wrapper\n    return func(*args, **kwargs)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/presentation/licenese/virtuozzo.py\", line 37, in post\n    ob = ClusterPresentation.register_license(cluster_id, **payload)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/cluster/presentation.py\", line 576, in register_license\n    resp = LicenseClient.register(cluster_id, key)\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/cluster/presentation.py\", line 71, in register\n    lambda cli: cli.post({\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/utils/misc.py\", line 303, in send_to_any_node\n    query=query,\n",
+            "  File \"/usr/libexec/vstorage-ui-backend/venv/lib64/python3.4/site-packages/vstorage_ui_backend-1.3.185-py3.4.egg/backend/business/models/utils/misc.py\", line 139, in request_to_any_agent\n    raise ValidationError(err.message, exceptions=[err.traceback])\n",
+            "backend.business.models.exceptions.ValidationError: 2023-04-04 10:48:39.239 Can't decode license: Wrong license\nOperation failed\n\n"
+        ],
+        "subsytem": "presentation",
+        "errors": [
+            {
+                "traceback": null
+            }
+        ]
+    },
+    "message": "2023-04-04 10:48:39.239 Can't decode license: Wrong license\nOperation failed\n (Deprecated field)"
+}
